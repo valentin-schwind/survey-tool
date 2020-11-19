@@ -1,0 +1,2776 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <sites>
+	<!-- SURVEY DESCRIPTION -->
+	<settings>
+		<!-- ENTER THE TITLE OF YOUR SURVEY -->
+		<introTitle lang="de">Umfrage</introTitle>
+		<introTitle lang="en">Survey</introTitle>
+		
+		<!-- ENTER THE TITLE OF YOUR Demographics page -->
+		<demographicsTitle lang="de">Demografische Angaben </demographicsTitle>
+		<demographicsTitle lang="en">Demographics </demographicsTitle>
+		
+		<!-- ENTER THE TITLE OF YOUR STUDY -->
+		<introSubTitle lang="de">Soziale Akzeptanz von expressiven Gesten</introSubTitle>
+		<introSubTitle lang="en">Social Acceptability of Expressive Gestures</introSubTitle>
+		
+		<!-- WELCOME MESSAGE OF YOUR INTRO TEXT (NOT THE STUDY DESCRIPTION!)... THE TEXT CAN INCLUDE HTML -->
+		<introText lang="de">The University of Applied Sciences Frankfurt and the University of Regensburg laden Sie herzlich dazu ein, an einer Untersuchung zur sozialen Akzeptanz von Gesten im sozialen Kontext teilzunehmen. Diese Befragung ist Teil der Forschung an unserem Institut und dient ausschließlich wissenschaftlichen Zwecken. <p></p>Die Teilnahme an der Befragung ist freiwillig. <a target="_blank" href="ic.pdf">Klicken Sie hier</a>, um die gesamte Einverständniserklärung zu sehen und auszudrucken. Die Befragung dauert circa 15 Minuten. Bei Fragen oder Anmerkungen können Sie gerne eine Email an Valentin Schwind (valentin.schwind[at]ur.de) senden. </introText>
+		<introText lang="en">The University of Applied Sciences Frankfurt and the chair of Media Informatics of the University of Regensburg cordially invites you to participate in a survey on the social acceptability of gestures in social context. This survey is part of the research and for scientific purposes only. <p></p>Participation in the survey is voluntary. <a target="_blank" href="ic.pdf">Click here</a> to view and print the full informed consent. The survey takes ca. 15 minutes. If you have questions or comments, feel free to send an email to Valentin Schwind (valentin.schwind[at]ur.de).</introText>
+		
+		<!-- ENTER A BUTTON NAME TO START YOUR SURVEY -->
+		<btnStartSurvey lang="de">Umfrage starten. . .</btnStartSurvey>
+		<btnStartSurvey lang="en">Start survey. . .</btnStartSurvey>	
+		
+		<!-- QUESTIONS CAN BE HIDED. THIS IS THE BUTTON OF THE NAME TO UNHIDE THEM -->
+		<btnShowQuestionnaire lang="de">Zeige Fragebogen. . .</btnShowQuestionnaire>
+		<btnShowQuestionnaire lang="en">Show Questionnaire. . .</btnShowQuestionnaire>	
+		
+		<!-- NAME OF THE BUTTON TO RESET THE SURVEY -->
+		<resetSurvey lang="de">Umfrage zurücksetzen. . .</resetSurvey>
+		<resetSurvey lang="en">Reset survey. . .</resetSurvey>		
+		
+		<!-- TITLE OF THE INSTRUCTION PAGE -->
+		<instructionTitle lang="de">Umfrage</instructionTitle>
+		<instructionTitle lang="en">Survey</instructionTitle>
+		
+		<!-- SUBTITLE OF THE INSTRUCTION PAGE -->
+		<instructionSubTitle lang="de">Anleitung</instructionSubTitle>
+		<instructionSubTitle lang="en">Instructions</instructionSubTitle>
+		
+		<!-- BYE BYE PAGE TITLE -->
+		<finalTitle lang="de">Vielen Dank für Ihre Teilnahme!</finalTitle>
+		<finalTitle lang="en">Thank you for your participation!</finalTitle>
+		
+		<!-- BYE BYE PAGE SUBTITLE -->
+		<finalSubTitle lang="de"></finalSubTitle>
+		<finalSubTitle lang="en"></finalSubTitle> 
+		
+		<!-- SEND BUTTON -->
+		<btnSendEMail lang="de">Senden</btnSendEMail>
+		<btnSendEMail lang="en">Send</btnSendEMail>
+		
+		<!-- RESET BUTTON -->
+		<btnReset lang="de">Senden</btnReset>
+		<btnReset lang="en">Send</btnReset>
+
+		<!-- LABEL OF Nationality Demographics -->
+		<countryText lang="de">Nationalität</countryText>
+		<countryText lang="en">Nationality</countryText>
+		
+		<!-- LABEL OF Gender Demographics -->
+		<genderText lang="de">Geschlecht</genderText>
+		<genderText lang="en">Gender</genderText>
+		
+		<!-- LABEL OF Education Demographics -->
+		<graduationText lang="de">Höchster Bildungsabschluss</graduationText>
+		<graduationText lang="en">Highest graduation</graduationText>
+		
+		<!-- LABEL OF Occupation Demographics -->
+		<occupationText lang="de">Tätigkeits-/Berufsfeld</occupationText>
+		<occupationText lang="en">Occupation</occupationText>	
+		
+		<!-- LABEL OF Age Demographics -->
+		<ageText lang="de">Alter</ageText>
+		<ageText lang="en">Age</ageText>
+		
+		<!-- INSTRUCTIONS FOR YOUR PARTICIPANTS -->
+		<instructionsText lang="en">In the following, you will see some videos of expressive gestures to control a mobile device. Please answer the questions below the video. Chose your ratings quickly and based on your feelings. It is not you or your performance that is evaluated, but the usability of the expressive gestures. So please answer honestly, there is no right or wrong. Your data will be processed anonymously and used for research purposes only. At the end of the questionnaire, you have the opportunity to leave your name and email address for receiving participation confirmation.</instructionsText>
+		<instructionsText lang="de">Im Folgenden sehen Sie einige Videos mit ausdrucksstarken Gesten zur Steuerung eines Mobilgeräts. Bitte beantworten Sie die Fragen unter dem Video. Wählen Sie Ihre Bewertungen schnell und basierend auf Ihren Gefühlen. Es werden nicht Sie oder Ihre Leistung bewertet, sondern die Verwendbarkeit der Ausdrucksgesten. Wir bitten Sie ehrlich zu antworten, es gibt kein Richtig oder Falsch. Ihre Daten werden anonym verarbeitet und nur zu Forschungszwecken verwendet. Am Ende des Fragebogens haben Sie die Möglichkeit, Ihren Namen und Ihre E-Mail-Adresse anzugeben, um eine Teilnahmebestätigung zu erhalten.</instructionsText>
+		
+		<!-- BACK BUTTON -->
+		<btnPrevSurvey lang="de">Zurück</btnPrevSurvey>
+		<btnPrevSurvey lang="en">Back</btnPrevSurvey>
+		
+		<!-- STARTING THE SURVEY BUTTON -->
+		<btnLoadConditions lang="de">Los geht's!</btnLoadConditions>
+		<btnLoadConditions lang="en">Let's go!</btnLoadConditions>
+		
+		<!-- PREV BUTTON -->
+		<btnPrev lang="de">Zurück</btnPrev>
+		<btnPrev lang="en">Back</btnPrev>
+		
+		<!-- CONTINUE BUTTON -->
+		<btnNext lang="de">Weiter</btnNext>
+		<btnNext lang="en">Next</btnNext>
+		
+		<!-- SENDING... LABEL -->
+		<txtPleaseWait lang="de">Sendet...</txtPleaseWait>
+		<txtPleaseWait lang="en">Sending...</txtPleaseWait>
+
+		<!-- LABEL OF YOUR NAME (FOR STUDENTS WHO WANT TO HAVE CREDIT POINTS) -->
+		<nameText lang="de">Name</nameText>
+		<nameText lang="en">Name</nameText>
+		
+		<!-- LABEL OF YOUR E-MAIL (FOR STUDENTS WHO WANT TO HAVE CREDIT POINTS) -->
+		<emailText lang="de">E-Mail</emailText>
+		<emailText lang="en">E-Mail</emailText>
+
+		<!-- WHAT HAPPENS TO NORMAL PARTICUPANTS AFTER THE SURVEY ? -->
+		<byebye lang="de">Ihre Daten wurden gespeichert. <p></p><strong>Studenten</strong>, die Versuchspersonenstudenten bekommen, erhalten bis 29.8.2020 eine E-Mail, wann und wo sie das unterschriebene Formular erhalten.</byebye>
+		<byebye lang="en">Your data has been saved.<p></p><strong> Students </strong> receiving trial students will receive an e-mail when and where they receive the signed form by February 29 2020.</byebye>
+
+		<!-- WHAT HAPPENS TO STUDENTS AFTER THE SURVEY ? -->
+		<studentsSentence lang="de"><strong>Studenten der Universität Regensburg</strong>, die Versuchspersonenstudenten bekommen, erhalten bis 29.8.2020 eine gesonderte E-Mail, wann und wo sie das unterschriebene Formular erhalten. </studentsSentence>
+		<studentsSentence lang="en"><strong>Students of the University of Regensburg</strong> who receive credit points will receive a separate email until February 29 2020 when and where they can get their signed confirmation of study participation.</studentsSentence>	
+		
+		<!-- CODE FOR ONLINE WORKERS -->
+		<codeSentence lang="de"><strong>Online Arbeiter</strong> sind fertig. Notieren Sie sich den folgenden Code oder Link zur Bestätigung der Teilnahme: </codeSentence>
+		<codeSentence lang="en"><strong>Online workers</strong> are done and can use this code or link for confirmation of their participation: </codeSentence>
+		
+		<!-- STUDENTS CAN HAVE CREDIT POINTS -->
+		<mciStudentText lang="en">I am student of the University of Regensburg and want to receive 1.0 credit points. </mciStudentText>
+		<mciStudentText lang="de">Ich bin Student an der Universität Regensburg und möchte 1,0 Versuchspersonenstudenten anrechnen lassen.  </mciStudentText>
+		
+		<!-- PEOPLE CAN TAKE PART IN THE LOTTERY -->
+		<lotterySentence lang="de"><strong>Studenten an der Universität Regensburg</strong>, die 1,0 Versuchspersonenstudenten erhalten, geben ihren Namen und ihre E-Mail an:</lotterySentence>
+		<lotterySentence lang="en"><strong>Students of the University of Regensburg</strong> who want to receive 1.0 credit points for their study course please enter name and e-mail: </lotterySentence>
+		
+		<!-- FINAL MESSAGE -->
+		<finishedSentence lang="de">Sie haben die Umfrage beendet.</finishedSentence>
+		<finishedSentence lang="en">You have completed the survey.</finishedSentence>
+		
+		<!-- DATA RIGHT Management -->
+		<lotteryText lang="de">Ich stimme zu, dass meine Daten bis zum Ende der Umfrage gespeichert werden.</lotteryText>
+		<lotteryText lang="en">I agree that this data will be stored until the end of this survey.</lotteryText>
+	</settings>
+	
+	<!-- QUESTIONNAIRES HAVE AN ID, NAME, TYPE (likert, semantic), NUMBER OF ITEMS, RANDOMNESS -->
+	<!-- THE ID IS REQUIRED TO PLACE YOUR QUESTIONNAIRES UNDER YOUR CONDITIONS -->
+	<!-- SEMANTIC QUESTIONNAIRES NEED A LEFT AND RIGHT ITEM -->
+	<!-- if you take the Question from Stimuli, you need no question -->
+	
+	
+	
+	<!-- THIS IS THE ATTRAKDIFF TEMPLATE -->
+	<!-- SEMANTIC QUESTIONNAIRES NEED A LEFT AND RIGHT ITEM -->
+	<questionnaire id="ATTRAKDIFF" name="attrakDiff Questionnaire" type="semantic" items="28" pointScale="7" randomItems="true" takeQuestionFromStimuli="false">
+		<description lang="de">Bitte geben Sie mit Hilfe der folgenden Wortpaare Ihren Eindruck zu dem Prototypen wieder:</description>
+		<description lang="en">Please use the following word pairs to provide your impression about the prototype:</description>
+		<item position="left" id="1" lang="en">human</item>
+		<item position="right" id="1" lang="en">technical</item>
+		<item position="left" id="2" lang="en">isolating</item>
+		<item position="right" id="2" lang="en">connective</item>
+		<item position="left" id="3" lang="en">pleasant</item>
+		<item position="right" id="3" lang="en">unpleasant</item>
+		<item position="left" id="4" lang="en">inventive</item>
+		<item position="right" id="4" lang="en">conventional</item>
+		<item position="left" id="5" lang="en">simple</item>
+		<item position="right" id="5" lang="en">complicated</item>
+		<item position="left" id="6" lang="en">professional</item>
+		<item position="right" id="6" lang="en">unprofessional</item>
+		<item position="left" id="7" lang="en">ugly</item>
+		<item position="right" id="7" lang="en">attractive</item>
+		<item position="left" id="8" lang="en">practical</item>
+		<item position="right" id="8" lang="en">impractical</item>
+		<item position="left" id="9" lang="en">likeable</item>
+		<item position="right" id="9" lang="en">disagreeable</item>
+		<item position="left" id="10" lang="en">cumbersome</item>
+		<item position="right" id="10" lang="en">straightforward</item>
+		<item position="left" id="11" lang="en">stylish</item>
+		<item position="right" id="11" lang="en">tacky</item>
+		<item position="left" id="12" lang="en">predictable</item>
+		<item position="right" id="12" lang="en">unpredictable</item>
+		<item position="left" id="13" lang="en">cheap</item>
+		<item position="right" id="13" lang="en">premium</item>  
+		<item position="left" id="14" lang="en">alienating</item>
+		<item position="right" id="14" lang="en">integrating</item>
+		<item position="left" id="15" lang="en">brings me closer to people</item>
+		<item position="right" id="15" lang="en">separates me from people</item>
+		<item position="left" id="16" lang="en">unpresentable</item>
+		<item position="right" id="16" lang="en">presentable</item>
+		<item position="left" id="17" lang="en">rejecting</item>
+		<item position="right" id="17" lang="en">inviting</item>
+		<item position="left" id="18" lang="en">unimaginative</item>
+		<item position="right" id="18" lang="en">creative</item>
+		<item position="left" id="19" lang="en">good</item>
+		<item position="right" id="19" lang="en">bad</item>
+		<item position="left" id="20" lang="en">confusing</item>
+		<item position="right" id="20" lang="en">clearly structured</item>
+		<item position="left" id="21" lang="en">repelling</item>
+		<item position="right" id="21" lang="en">appealing</item>
+		<item position="left" id="22" lang="en">bold</item>
+		<item position="right" id="22" lang="en">cautious</item>
+		<item position="left" id="23" lang="en">innovative</item>
+		<item position="right" id="23" lang="en">conservative</item>
+		<item position="left" id="24" lang="en">dull</item>
+		<item position="right" id="24" lang="en">captivating</item>
+		<item position="left" id="25" lang="en">undemanding</item>
+		<item position="right" id="25" lang="en">challenging</item>
+		<item position="left" id="26" lang="en">motivating</item>
+		<item position="right" id="26" lang="en">discouraging</item>  
+		<item position="left" id="27" lang="en">novel</item>
+		<item position="right" id="27" lang="en">ordinary</item>
+		<item position="left" id="28" lang="en">unruly</item>
+		<item position="right" id="28" lang="en">manageable</item>
+		
+		<item position="left" id="1" lang="de">menschlich</item>
+		<item position="right" id="1" lang="de">technisch</item>
+		<item position="left" id="2" lang="de">isolierend</item>
+		<item position="right" id="2" lang="de">verbindend</item>
+		<item position="left" id="3" lang="de">angenehm</item>
+		<item position="right" id="3" lang="de">unangenehm</item>
+		<item position="left" id="4" lang="de">originell</item>
+		<item position="right" id="4" lang="de">konventionell</item>
+		<item position="left" id="5" lang="de">einfach</item>
+		<item position="right" id="5" lang="de">kompliziert</item>
+		<item position="left" id="6" lang="de">fachmännisch</item>
+		<item position="right" id="6" lang="de">laienhaft</item>
+		<item position="left" id="7" lang="de">hässlich</item>
+		<item position="right" id="7" lang="de">schön</item>
+		<item position="left" id="8" lang="de">praktisch</item>
+		<item position="right" id="8" lang="de">unpraktisch</item>
+		<item position="left" id="9" lang="de">sympathisch</item>
+		<item position="right" id="9" lang="de">unsympathisch</item>
+		<item position="left" id="10" lang="de">umständlich</item>
+		<item position="right" id="10" lang="de">direkt</item>
+		<item position="left" id="11" lang="de">stilvoll</item>
+		<item position="right" id="11" lang="de">stillos</item>
+		<item position="left" id="12" lang="de">voraussagbar</item>
+		<item position="right" id="12" lang="de">unberechenbar</item>
+		<item position="left" id="13" lang="de">minderwertig</item>
+		<item position="right" id="13" lang="de">wertvoll</item>  
+		<item position="left" id="14" lang="de">ausgrenzend</item>
+		<item position="right" id="14" lang="de">einbeziehend</item>
+		<item position="left" id="15" lang="de">bringt mich den Leuten näher</item>
+		<item position="right" id="15" lang="de">trennt mich von den Leuten</item>
+		<item position="left" id="16" lang="de">nicht vorzeigbar</item>
+		<item position="right" id="16" lang="de">vorzeigbar</item>
+		<item position="left" id="17" lang="de">zurückweisend</item>
+		<item position="right" id="17" lang="de">einladend</item>
+		<item position="left" id="18" lang="de">phantasielos</item>
+		<item position="right" id="18" lang="de">kreativ</item>
+		<item position="left" id="19" lang="de">gut</item>
+		<item position="right" id="19" lang="de">schlecht</item>
+		<item position="left" id="20" lang="de">verwirrend</item>
+		<item position="right" id="20" lang="de">übersichtlich</item>
+		<item position="left" id="21" lang="de">abstoßend</item>
+		<item position="right" id="21" lang="de">anziehend</item>
+		<item position="left" id="22" lang="de">mutig</item>
+		<item position="right" id="22" lang="de">vorsichtig</item>
+		<item position="left" id="23" lang="de">innovativ</item>
+		<item position="right" id="23" lang="de">konservativ</item>
+		<item position="left" id="24" lang="de">lahm</item>
+		<item position="right" id="24" lang="de">fesselnd</item>
+		<item position="left" id="25" lang="de">harmlos</item>
+		<item position="right" id="25" lang="de">herausfordernd</item>
+		<item position="left" id="26" lang="de">motivierend</item>
+		<item position="right" id="26" lang="de">entmutigend</item>  
+		<item position="left" id="27" lang="de">neuartig</item>
+		<item position="right" id="27" lang="de">herkömmlich</item>
+		<item position="left" id="28" lang="de">widerspenstig</item>
+		<item position="right" id="28" lang="de">handhabbar</item>
+	</questionnaire>
+	
+	<!-- THIS IS THE SUS QUESTIONNAIRE -->
+	<questionnaire id="SUS" name="SUS Questionnaire" type="likert" items="10" pointScale="7" randomItems="true" takeQuestionFromStimuli="false">
+		<description lang="de">Bitte bewerten Sie, inwieweit Sie den folgenden Aussagen zustimmen:</description>
+		<description lang="en">Please rate the extent to which you agree with the following statements:</description>
+		
+		<item id="1"  lang="en">I think that I would like to use this system frequently.</item>
+		<item id="2"  lang="en">I find the system unnecessarily complex.</item>
+		<item id="3"  lang="en">I think the system is easy to use.</item>
+		<item id="4"  lang="en">I think that I would need the support of a technical person to be able to use this system.</item>
+		<item id="5"  lang="en">I find the various functions in this system were well integrated.</item>
+		<item id="6"  lang="en">I think there is too much inconsistency in this system.</item>
+		<item id="7"  lang="en">I would imagine that most people would learn to use this system very quickly.</item>
+		<item id="8"  lang="en">I find the system very cumbersome to use.</item>
+		<item id="9"  lang="en">I will feel very confident using the system.</item>
+		<item id="10" lang="en">I will need to learn a lot of things before I could get going with this system.</item>
+		
+		<item id="1"  lang="de">Ich denke, dass ich das System gerne häufig benutzen würde.</item>
+		<item id="2"  lang="de">Ich fand das System unnötig komplex.</item>
+		<item id="3"  lang="de">Ich fand das System einfach zu benutzen.</item>
+		<item id="4"  lang="de">Ich glaube, ich würde die Hilfe einer technisch versierten Person benötigen, um das System benutzen zu können.</item>
+		<item id="5"  lang="de">Ich fand, die verschiedenen Funktionen in diesem System waren gut integriert.</item>
+		<item id="6"  lang="de">Ich denke, das System enthielt zu viele Inkonsistenzen.</item>
+		<item id="7"  lang="de">Ich kann mir vorstellen, dass die meisten Menschen den Umgang mit diesem System sehr schnell lernen.</item>
+		<item id="8"  lang="de">Ich fand das System sehr umständlich zu nutzen.</item>
+		<item id="9"  lang="de">Ich fühlte mich bei der Benutzung des Systems sehr sicher.</item>
+		<item id="10" lang="de">Ich musste eine Menge lernen, bevor ich anfangen konnte das System zu verwenden.</item>
+		
+		<scale id="1" value="-3" lang="en">strongly disagree</scale>
+		<scale id="2" value="-2" lang="en"></scale>
+		<scale id="3" value="-1" lang="en"></scale>
+		<scale id="4" value="0" lang="en"></scale>
+		<scale id="5" value="1" lang="en"></scale>
+		<scale id="6" value="2" lang="en"></scale>
+		<scale id="7" value="3" lang="en">strongly agree</scale>
+                     
+		<scale id="1" value="-3" lang="de">trifft vollkommen nicht zu</scale>
+		<scale id="2" value="-2" lang="de"></scale>
+		<scale id="3" value="-1" lang="de"></scale>
+		<scale id="4" value="0" lang="de"></scale>
+		<scale id="5" value="1" lang="de"></scale>
+		<scale id="6" value="2" lang="de"></scale>
+		<scale id="7" value="3" lang="de">trifft vollkommen zu</scale>
+	</questionnaire>
+	
+	<!-- THIS IS THE ARI QUESTIONNAIRE -->
+	<questionnaire id="ARI" name="ARI Questionnaire" type="likert" items="21" pointScale="7" randomItems="true" takeQuestionFromStimuli="false">		
+		<description lang="de">Bitte bewerten Sie, inwieweit Sie den folgenden Aussagen zustimmen:</description>
+		<description lang="en">Please rate the extent to which you agree with the following statements:</description>
+		
+		<item id="1"  lang="en">I liked the activity because it was novel.</item>
+		<item id="2"  lang="en">I liked the type of the activity.</item>
+		<item id="3"  lang="en">I wanted to spend the time to complete the activity successfully.</item>
+		<item id="4"  lang="en">I wanted to spend time to participate in the activity.</item>
+		<item id="5"  lang="en">It is / will be easy for me to use the prototype.</item>
+		<item id="6"  lang="en">I found the prototype confusing.</item>
+		<item id="7"  lang="en">The prototype was unnecessarily complex.</item>
+		<item id="8"  lang="en">I did not / will not have difficulties in controlling the prototype.</item>
+		<item id="9"  lang="en">I was curious about how the activity would progress.</item>
+		<item id="10" lang="en">I was often excited since I felt as being part of the activity.</item>
+		<item id="11" lang="en">I often felt suspense by the activity.</item>
+		<item id="12" lang="en">If interrupted, I looked forward to returning to the activity.</item>
+		<item id="13" lang="en">Everyday thoughts and concerns faded out during the activity.</item>
+		<item id="14" lang="en">I was more focused on the activity rather on any external distraction.</item>
+		<item id="15" lang="en">The activity felt so authentic that it made me think that the virtual characters/objects existed for real.</item>
+		<item id="16" lang="en">I felt that what I was experiencing was something real, instead of a fictional activity.</item>
+		<item id="17" lang="en">I was so involved in the activity, that in some cases I wanted to interact with the virtual objects directly.</item>
+		<item id="18" lang="en">I so was involved, that I felt that my actions could affect the activity.</item>
+		<item id="19" lang="en">I didn’t have any irrelevant thoughts or external distractions during the activity.</item>
+		<item id="20" lang="en">The activity became the unique and only thought occupying my mind.</item>
+		<item id="21" lang="en">I lost track of time, as if everything just stopped, and the only thing that I could think about was the activity.</item>
+		
+		<item id="1"  lang="de">Mir gefiel die Aktivität, da sie neuartig war.</item>
+		<item id="2"  lang="de">Mir gefiel die Art der Aktivität</item>
+		<item id="3"  lang="de">Ich wollte Zeit damit verbringen, die Aktivität erfolgreich abzuschließen.</item>
+		<item id="4"  lang="de">Ich wollte Zeit damit verbringen an der Aktivität teilzunehmen.</item>
+		<item id="5"  lang="de">Es war einfach für mich den Prototypen zu verwenden.</item>
+		<item id="6"  lang="de">Ich fand den Prototypen verwirrend.</item>
+		<item id="7"  lang="de">Der Prototyp war unnötig komplex.</item>
+		<item id="8"  lang="de">Ich hatte keine Schwierigkeiten beim Kontrollieren des Prototypens.</item>
+		<item id="9"  lang="de">Ich war neugierig, wie sich die Aktivität entwickeln würde.</item>
+		<item id="10" lang="de">Ich war oft aufgeregt, weil ich mich als Teil der Aktivität fühlte.</item>
+		<item id="11" lang="de">Ich fühlte mich durch die Aktivität oft angespannt.</item>
+		<item id="12" lang="de">Wenn ich unterbrochen wurde, freute ich mich darauf, zu der Aktivität zurückzukehren.</item>
+		<item id="13" lang="de">Alltägliche Gedanken und Sorgen verschwanden während der Aktivität.</item>
+		<item id="14" lang="de">Ich habe mich mehr auf die Aktivität konzentriert, als auf irgendeine externe Ablenkung.</item>
+		<item id="15" lang="de">Die Aktivität fühlte sich so authentisch an, dass ich dachte, dass die virtuellen Charaktere / Objekte real existieren.</item>
+		<item id="16" lang="de">Ich spürte, dass das, was ich erlebte echt war und keine fiktive Aktivität.</item>
+		<item id="17" lang="de">Ich war so in die Aktivität involviert, dass ich in einigen Fällen direkt mit den virtuellen Objekten interagieren wollte.</item>
+		<item id="18" lang="de">Ich war so involviert, dass ich spürte, dass meine Handlungen die Aktivität beeinflussen könnten.</item>
+		<item id="19" lang="de">Ich hatte während der Aktivität keine irrelevanten Gedanken noch kamen äußere Ablenkungen vor.</item>
+		<item id="20" lang="de">Die Aktivität war der einzige und einzigartige Gedanke, der mich beschäftigte.</item>
+		<item id="21" lang="de">Ich verlor die Zeit, als ob alles einfach stehengeblieben wäre, und das Einzige, woran ich denken konnte, war die Aktivität selbst.</item>
+		
+		<scale id="1" value="-3" lang="en">strongly disagree</scale>
+		<scale id="2" value="-2" lang="en"></scale>
+		<scale id="3" value="-1" lang="en"></scale>
+		<scale id="4" value="0" lang="en">neither nor</scale>
+		<scale id="5" value="1" lang="en"></scale>
+		<scale id="6" value="2" lang="en"></scale>
+		<scale id="7" value="3" lang="en">strongly agree</scale>
+                     
+		<scale id="1" value="-3" lang="de">trifft vollkommen nicht zu</scale>
+		<scale id="2" value="-2" lang="de"></scale>
+		<scale id="3" value="-1" lang="de"></scale>
+		<scale id="4" value="0" lang="de">weder noch</scale>
+		<scale id="5" value="1" lang="de"></scale>
+		<scale id="6" value="2" lang="de"></scale>
+		<scale id="7" value="3" lang="de">trifft vollkommen zu</scale>
+	</questionnaire>
+	
+	<!-- THIS IS THE SCM QUESTIONNAIRE ...  -->
+	<questionnaire id="SCM" name="SCM Questionnaire" type="likert" items="9" pointScale="5" randomItems="true" takeQuestionFromStimuli="false">
+		<description lang="en">As viewed by society, how . . . is this person:</description>
+		<description lang="de">Aus gesellschaftlicher Sicht, wie . . . wirkt die Person:</description>
+		
+		<item id="1"  lang="en">competent</item>
+		<item id="2"  lang="en">confident</item>
+		<item id="3"  lang="en">independent</item>
+		<item id="4"  lang="en">competitive</item>
+		<item id="5"  lang="en">intelligent</item>
+		<item id="6"  lang="en">tolerant</item>
+		<item id="7"  lang="en">warm</item>
+		<item id="8"  lang="en">good-natured</item>
+		<item id="9"  lang="en">sincere</item>
+		
+		<item id="1"  lang="de">kompetent</item>
+		<item id="2"  lang="de">selbstsicher</item>
+		<item id="3"  lang="de">unabhängig</item>
+		<item id="4"  lang="de">konkurrenzfähig</item>
+		<item id="5"  lang="de">intelligent</item>
+		<item id="6"  lang="de">tolerant</item>
+		<item id="7"  lang="de">warmherzig</item>
+		<item id="8"  lang="de">gutmütig</item>
+		<item id="9"  lang="de">aufrichtig</item>
+		
+		<scale id="1" value="1" lang="en">not at all</scale>
+		<scale id="2" value="2" lang="en"></scale>
+		<scale id="3" value="3" lang="en"></scale>
+		<scale id="4" value="4" lang="en"></scale>
+		<scale id="5" value="5" lang="en">extremely</scale>
+                     
+		<scale id="1" value="1" lang="de">überhaupt nicht</scale>
+		<scale id="2" value="2" lang="de"></scale>
+		<scale id="3" value="3" lang="de"></scale>
+		<scale id="4" value="4" lang="de"></scale>
+		<scale id="5" value="5" lang="de">äußerst</scale>
+	</questionnaire>
+	
+	<!-- THIS IS THE WEAR SCALE -->
+	<questionnaire id="WEAR" name="WEAR Scale" type="likert" items="14" pointScale="6" randomItems="true" takeQuestionFromStimuli="true">
+		<description lang="de">Bitte bewerten Sie, inwieweit Sie den folgenden Aussagen zustimmen:</description>
+		<description lang="en">Please rate the extent to which you agree with the following statements:</description>
+		
+		<item id="1"  lang="en">I like what this gesture communicates about its performer</item>
+		<item id="2"  lang="en">I could imagine aspiring to be like the performer of such a gesture</item>
+		<item id="3"  lang="en">This gesture is consistent with my self-image</item>
+		<item id="4"  lang="en">This gesture would enhance the performer’s image</item>
+		<item id="5"  lang="en">The performer of this gesture would get a positive reaction from others</item>
+		<item id="6"  lang="en">I like how this gesture shows membership to a certain social group</item>
+		<item id="7"  lang="en">This gesture seems to be useful and easy to perform</item>
+		<item id="8"  lang="en">This gesture could help people</item>
+		<item id="9"  lang="en">This gesture could allow its performer to take advantage of people</item>
+		<item id="10" lang="en">Use of this gesture raises privacy issues</item>
+		<item id="11" lang="en">The performer of this gesture could be considered rude</item>
+		<item id="12" lang="en">Performing this gesture could be considered inappropriate</item>
+		<item id="13" lang="en">People would not be offended by the performance of this gesture</item>
+		<item id="14" lang="en">This gesture would be distracting when driving</item>
+		
+		<item id="1"  lang="de">Mir gefällt, was dieses Gerät über den Darsteller der Geste kommuniziert</item>
+		<item id="2"  lang="de">Ich könnte mir vorstellen, wie der Darsteller einer solchen Geste zu sein</item>
+		<item id="3"  lang="de">Diese Geste steht im Einklang mit meinem Selbstbild</item>
+		<item id="4"  lang="de">Diese Geste würde das Image des Darstellers verbessern</item>
+		<item id="5"  lang="de">Der Darsteller dieser Geste würde eine positive Reaktion von anderen bekommen</item>
+		<item id="6"  lang="de">Mir gefällt, wie diese Geste die Zugehörigkeit zu einer bestimmten sozialen Gruppe zeigt</item>
+		<item id="7"  lang="de">Diese Geste scheint nützlich und einfach zu sein</item>
+		<item id="8"  lang="de">Diese Geste könnte den Menschen helfen</item>
+		<item id="9"  lang="de">Diese Geste könnte es seinem Darsteller ermöglichen, die Menschen auszunutzen</item>
+		<item id="10" lang="de">Die Verwendung dieser Geste wirft Datenschutzprobleme auf</item>
+		<item id="11" lang="de">Der Darsteller dieser Geste könnte als unhöflich angesehen werden</item>
+		<item id="12" lang="de">Das Ausführen dieser Geste kann als unangemessen angesehen werden</item>
+		<item id="13" lang="de">Die Menschen würden von der Ausführung dieser Geste nicht beleidigt sein</item>
+		<item id="14" lang="de">Dieses Gerät würde beim Fahren ablenken</item>
+		
+		<scale id="1" value="1" lang="en">strongly disagree</scale>
+		<scale id="2" value="2" lang="en"></scale>
+		<scale id="3" value="3" lang="en"></scale>
+		<scale id="4" value="4" lang="en"></scale>
+		<scale id="5" value="5" lang="en"></scale>
+		<scale id="6" value="6" lang="en">strongly agree</scale>
+                     
+		<scale id="1" value="1" lang="de">stimme überhaupt nicht zu</scale>
+		<scale id="2" value="2" lang="de"></scale>
+		<scale id="3" value="3" lang="de"></scale>
+		<scale id="4" value="4" lang="de"></scale>
+		<scale id="5" value="5" lang="de"></scale>
+		<scale id="6" value="6" lang="de">stimme voll und ganz zu</scale>
+	</questionnaire>
+	
+	<!-- OWN ACTOR QUESTIONS -->
+	<questionnaire id="ACTOR" name="My Questions" type="likert" items="4" pointScale="7" randomItems="true" takeQuestionFromStimuli="false">
+		<description lang="de">Bitte bewerten Sie, inwieweit Sie den folgenden Aussagen zustimmen:</description>
+		<description lang="en">Please rate the extent to which you agree with the following statements:</description>
+		
+		<item id="1"  lang="en">Performing this gesture is generally socially accepted</item> 
+		<item id="2"  lang="en">Performing this gesture using a smartphone is socially accepted</item>
+		<item id="3"  lang="en">I would perform this gesture</item>
+		<item id="4"  lang="en">I can imagine to be that person perfoming this gesture</item> 
+		
+		<item id="1"  lang="de">Das Ausführen dieser Geste ist allgemein gesellschaftlich akzeptiert</item> 
+		<item id="2"  lang="de">Das Ausführen dieser Geste mit einem Smartphone ist sozial anerkannt</item>
+		<item id="3"  lang="de">Ich würde diese Geste ausführen</item>
+		<item id="4"  lang="de">Ich kann mir vorstellen die Person zu sein, welche die Geste ausführt</item> 
+		
+		<scale id="1" value="1" lang="en">strongly disagree</scale>
+		<scale id="2" value="2" lang="en"></scale>
+		<scale id="3" value="3" lang="en"></scale>
+		<scale id="4" value="4" lang="en">neither nor</scale>
+		<scale id="5" value="5" lang="en"></scale>
+		<scale id="6" value="6" lang="en"></scale>
+		<scale id="7" value="7" lang="en">strongly agree</scale>
+                     
+		<scale id="1" value="1" lang="de">trifft vollkommen nicht zu</scale>
+		<scale id="2" value="2" lang="de"></scale>
+		<scale id="3" value="3" lang="de"></scale>
+		<scale id="4" value="4" lang="de">weder noch</scale>
+		<scale id="5" value="5" lang="de"></scale>
+		<scale id="6" value="6" lang="de"></scale>
+		<scale id="7" value="7" lang="de">trifft vollkommen zu</scale>
+	</questionnaire>
+	
+	<!-- OWN CONTEXT QUESTIONS -->
+	<questionnaire id="CONTEXT" name="My Questions" type="likert" items="5" pointScale="7" randomItems="true" takeQuestionFromStimuli="false">
+		<description lang="de">Bitte bewerten Sie, inwieweit Sie den folgenden Aussagen zustimmen:</description>
+		<description lang="en">Please rate the extent to which you agree with the following statements:</description>
+		
+		<item id="1"  lang="en">Performing this gesture is generally socially accepted</item>
+		<item id="2"  lang="en">Performing this gesture using a smartphone is socially accepted</item>
+		<item id="3"  lang="en">I would perform this gesture in this context</item>
+		<item id="4"  lang="en">I can imagine to be that person in that situation</item> 
+		<item id="5"  lang="en">Performing this gesture in this context is socially accepted</item>
+		
+		<item id="1"  lang="de">Das Ausführen dieser Geste ist allgemein gesellschaftlich akzeptiert</item>
+		<item id="2"  lang="de">Das Ausführen dieser Geste mit einem Smartphone ist sozial anerkannt</item>
+		<item id="3"  lang="de">Ich würde diese Geste in diesem Kontext ausführen</item>
+		<item id="4"  lang="de">Ich kann mir vorstellen diese Person in dieser Situation zu sein</item> 
+		<item id="5"  lang="de">Das Ausführen dieser Geste in diesem Kontext ist sozial akzeptiert</item>
+		
+		<scale id="1" value="1" lang="en">strongly disagree</scale>
+		<scale id="2" value="2" lang="en"></scale>
+		<scale id="3" value="3" lang="en"></scale>
+		<scale id="4" value="4" lang="en">neither nor</scale>
+		<scale id="5" value="5" lang="en"></scale>
+		<scale id="6" value="6" lang="en"></scale>
+		<scale id="7" value="7" lang="en">strongly agree</scale>
+                     
+		<scale id="1" value="1" lang="de">trifft vollkommen nicht zu</scale>
+		<scale id="2" value="2" lang="de"></scale>
+		<scale id="3" value="3" lang="de"></scale>
+		<scale id="4" value="4" lang="de">weder noch</scale>
+		<scale id="5" value="5" lang="de"></scale>
+		<scale id="6" value="6" lang="de"></scale>
+		<scale id="7" value="7" lang="de">trifft vollkommen zu</scale>
+	</questionnaire>
+	 
+	
+	<!-- THIS IS THE GENDER SCALE -->
+	<questionnaire id="GENDER" name="My Questions" type="likert" items="2" pointScale="7" randomItems="true" takeQuestionFromStimuli="true">
+		<description lang="de"></description>
+		<description lang="en"></description>
+		
+		<item id="1"  lang="en">Is this person rather a male or a female?</item>
+		<item id="2"  lang="en">Is such a gesture rather performed by a male or a female?</item>
+		<item id="1"  lang="de">Ist diese Person eher ein Mann oder eher eine Frau?</item> 
+		<item id="2"  lang="de">Wird solch eine Geste eher von einem Mann oder eher von einer Frau durchgeführt?</item> 
+		
+		<scale id="1" value="1" lang="en">rather by a male</scale>
+		<scale id="2" value="2" lang="en"></scale>
+		<scale id="3" value="3" lang="en"></scale>
+		<scale id="4" value="4" lang="en">neither nor</scale>
+		<scale id="5" value="5" lang="en"></scale>
+		<scale id="6" value="6" lang="en"></scale>
+		<scale id="7" value="7" lang="en">rather by a female</scale>
+                     
+		<scale id="1" value="1" lang="de">eher von einem Mann</scale>
+		<scale id="3" value="3" lang="de"></scale>
+		<scale id="2" value="2" lang="de"></scale>
+		<scale id="4" value="4" lang="de">weder noch</scale>
+		<scale id="5" value="5" lang="de"></scale>
+		<scale id="6" value="6" lang="de"></scale>
+		<scale id="7" value="7" lang="de">eher von einer Frau</scale>
+	</questionnaire>
+	 
+	 
+	<!-- "FINAL" IS ABOUT ANY FINAL QUESTIONS -->
+	 <!-- THIS IS A CUSTOM QUESTIONNAIRE WITH FEEDBACK TEXT -->
+	<questionnaire id="FINAL" name="Additional Questions" type="custom" items="5"  randomItems="false">
+		<description lang="de">Zuletzt, gegen Sie uns bitte Feedback zu folgenden Fragen:</description>
+		<description lang="en">Finally, please provide feedback on the following questions:</description>
+		
+		<item id="1" lang="en" type="likert" pointScale="7">I was able to imagine the person performing the gestures</item>
+		<item id="2" lang="en" type="likert" pointScale="7">The visualization was not always clear to me</item>
+		<item id="3" lang="en" type="qualitative" rows="4">How could the visualizations be improved?</item>
+		<item id="4" lang="en" type="qualitative" rows="4">What problems did you have while assessing the social acceptability?</item>
+		<item id="5" lang="en" type="qualitative" rows="4">What difficulties did you have in assigning the situation?</item>
+		
+		<item id="1" lang="de" type="likert" pointScale="7">Ich konnte mir die Person vorstellen, welche die Geste ausführt.</item>
+		<item id="2" lang="de" type="likert" pointScale="7">Die Visualisierung war mir nicht immer klar.</item>
+		<item id="3" lang="de" type="qualitative" rows="4">Wie könnte man die Visualisierung besser gestalten?</item>
+		<item id="4" lang="de" type="qualitative" rows="4">Welche Probleme hatten Sie bei der Einordnung der sozialen Akzeptanz?</item>
+		<item id="5" lang="de" type="qualitative" rows="4">Welche Schwierigkeiten hatten Sie bei der Zuordnung der Situation?</item>
+	
+		<scale id="1" value="-3" lang="en">strongly disagree</scale>
+		<scale id="2" value="-2" lang="en"></scale>
+		<scale id="3" value="-1" lang="en"></scale>
+		<scale id="4" value="0" lang="en">neither nor</scale>
+		<scale id="5" value="1" lang="en"></scale>
+		<scale id="6" value="2" lang="en"></scale>
+		<scale id="7" value="3" lang="en">strongly agree</scale>
+                     
+		<scale id="1" value="-3" lang="de">trifft vollkommen nicht zu</scale>
+		<scale id="2" value="-2" lang="de"></scale>
+		<scale id="3" value="-1" lang="de"></scale>
+		<scale id="4" value="0" lang="de">weder noch</scale>
+		<scale id="5" value="1" lang="de"></scale>
+		<scale id="6" value="2" lang="de"></scale>
+		<scale id="7" value="3" lang="de">trifft vollkommen zu</scale>
+	</questionnaire>
+	 
+	<!-- YOUR EXPERIMENTAL CONDITIONS -->
+	<!-- randomize: "latinSquare" for balanced latin square or "shuffle" for random --> 
+	<!-- randomQuestionnaires: true/false can shuffle the questionnaire order  -->
+	<!-- hidingShowButton true/false can hide or show your questionnaires when site appears -->
+	
+	<conditions randomize="shuffle" finalCondition="81" randomQuestionnaires="false" hideShowButton="true" showAllQuestions="true">
+		<!-- YOUR CONDITION -->
+		<!-- EVERY CONDITION NEEDS AN UNIQUE ID (EVEN WITHIN GROUPS) (APPEARS IN YOUR STATS)-->
+		<!-- NEEDS A NAME (THIS IS WHAT APPEARS IN YOUR STATS) -->
+		<!-- WITHIN GROUP RANDOMLY ASSIGNS A PARTICIPANT TO YOUR GROUP (APPEARS IN YOUR STATS)-->
+		
+		
+		<!-- VISUALIZED CONTEXT -->
+		<condition id="1" name="Visual-Bus-Whip-9" withinGroup="context-whip" >
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen an der Bushaltestelle. Diese Personen warten auf den Bus und beschäftigen sich währenddessen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are nine other people at the bus stop. These people wait for the bus and keep themselves busy.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Bus-Whip-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>
+		
+		<condition id="2" name="Visual-Cafe-Whip-9" withinGroup="context-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen im Café. Diese Personen trinken zum Beispiel etwas oder unterhalten sich.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are nine other people in the café. These people have a drink or have a conversation, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Cafe/Cafe-Whip-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="3" name="Visual-Bus-Shoulder-9" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen an der Bushaltestelle. Diese Personen warten auf den Bus und beschäftigen sich währenddessen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are nine other people at the bus stop. These people wait for the bus and keep themselves busy.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Bus/Bus-Shoulder-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="4" name="Visual-Cafe-Shoulder-9" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen im Café. Diese Personen trinken zum Beispiel etwas oder unterhalten sich.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are nine other people in the café. These people have a drink or have a conversation, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Cafe-Shoulder-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="5" name="Visual-Bus-Proximity-9" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen an der Bushaltestelle. Diese Personen warten auf den Bus und beschäftigen sich währenddessen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are nine other people at the bus stop. These people wait for the bus and keep themselves busy.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Bus/Bus-Hand-Proximity-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="6" name="Visual-Cafe-Proximity-9" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen im Café. Diese Personen trinken zum Beispiel etwas oder unterhalten sich.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are nine other people in the cafe. These people have a drink or have a conversation, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Cafe/Cafe-Hand-Proximity-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="7" name="Visual-Bus-Head-9" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen an der Bushaltestelle. Diese Personen warten auf den Bus und beschäftigen sich währenddessen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are nine other people at the bus stop. These people wait for the bus and keep themselves busy.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Bus/Bus-Head-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="8" name="Visual-Bus-Whip-0" withinGroup="context-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen an der Bushaltestelle.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are no other people at the bus stop.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Bus/Bus-Whip-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>   
+		
+		<condition id="9" name="Visual-Cafe-Head-9" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen im Café. Diese Personen trinken zum Beispiel etwas oder unterhalten sich.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are nine other people in the café. These people have a drink or have a conversation, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Cafe/Cafe-Head-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>   
+		
+		<condition id="10" name="Visual-Bus-Shoulder-0" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen an der Bushaltestelle.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are no other people at the bus stop.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Bus/Bus-Shoulder-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="11" name="Visual-Bus-Proximity-0" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen an der Bushaltestelle.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are no other people at the bus stop.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Bus/Bus-Hand-Proximity-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="12" name="Visual-Cafe-Whip-0" withinGroup="context-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in dem Café.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are no other people in the café.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Cafe/Cafe-Whip-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>   
+		
+		<condition id="13" name="Visual-Library-Whip-9" withinGroup="context-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Library</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen in der Bibliothek. Diese Personen suchen zum Beispiel Bücher heraus oder lesen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are nine other people in the library. These people pick out or read books, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Library/Library-Whip-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="14" name="Visual-Bus-Head-0" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<condition-title lang="en">Bus stop</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen an der Bushaltestelle.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are no other people at the bus stop.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Bus/Bus-Head-Proximity-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="15" name="Visual-Library-Whip-0" withinGroup="context-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in der Bibliothek.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are no other people in the library.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Library/Library-Whip-Proximity-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>
+		
+		<condition id="16" name="Visual-Cafe-Shoulder-0" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in dem Café.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are no other people in the café.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Cafe/Cafe-Shoulder-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="17" name="Visual-Library-Shoulder-9" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen in der Bibliothek. Diese Personen suchen zum Beispiel Bücher heraus oder lesen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are nine other people in the library. These people pick out or read books, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Library/Library-Shoulder-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>
+		
+		<condition id="18" name="Visual-Cafe-Proximity-0" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in dem Café.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are no other people in the café.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Cafe/Cafe-Hand-Proximity-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="19" name="Visual-Library-Proximity-9" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen in der Bibliothek. Diese Personen suchen zum Beispiel Bücher heraus oder lesen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are nine other people in the library. These people pick out or read books, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Library/Library-Hand-Proximity-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="20" name="Visual-Cafe-Head-0" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in dem Café.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are no other people in the café.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Cafe/Cafe-Head-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="21" name="Visual-Library-Head-9" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen in der Bibliothek. Diese Personen suchen zum Beispiel Bücher heraus oder lesen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are nine other people in the library. These people pick out or read books, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Library/Library-Head-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="22" name="Visual-Library-Shoulder-0" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in der Bibliothek.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are no other people in the library.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Library/Library-Shoulder-Proximity-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="23" name="Visual-Library-Proximity-0" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in der Bibliothek.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are no other people in the library.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Library/Library-Hand-Proximity-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="24" name="Visual-Library-Head-0" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in der Bibliothek.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are no other people in the library.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Library/Library-Head-Proximity-gif-0Byst.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		
+		<!-- TEXTUAL CONTEXT -->
+		<condition id="25" name="Textual-Bus-Whip-9" withinGroup="context-whip" >
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen an der Bushaltestelle. Diese Personen warten auf den Bus und beschäftigen sich währenddessen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are nine other people at the bus stop. These people wait for the bus and keep themselves busy.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Whip-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>
+		
+		<condition id="26" name="Textual-Cafe-Whip-9" withinGroup="context-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen im Café. Diese Personen trinken zum Beispiel etwas oder unterhalten sich.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are nine other people in the café. These people have a drink or have a conversation, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Whip-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="27" name="Textual-Bus-Shoulder-9" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen an der Bushaltestelle. Diese Personen warten auf den Bus und beschäftigen sich währenddessen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are nine other people at the bus stop. These people wait for the bus and keep themselves busy.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Shoulder-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="28" name="Textual-Cafe-Shoulder-9" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen im Café. Diese Personen trinken zum Beispiel etwas oder unterhalten sich.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are nine other people in the café. These people have a drink or have a conversation, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Shoulder-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="29" name="Textual-Bus-Proximity-9" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen an der Bushaltestelle. Diese Personen warten auf den Bus und beschäftigen sich währenddessen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are nine other people at the bus stop. These people wait for the bus and keep themselves busy.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Hand-proximity-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="30" name="Textual-Cafe-Proximity-9" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen im Café. Diese Personen trinken zum Beispiel etwas oder unterhalten sich.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are nine other people in the cafe. These people have a drink or have a conversation, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Hand-proximity-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="31" name="Textual-Bus-Head-9" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen an der Bushaltestelle. Diese Personen warten auf den Bus und beschäftigen sich währenddessen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are nine other people at the bus stop. These people wait for the bus and keep themselves busy.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Head-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="32" name="Textual-Bus-Whip-0" withinGroup="context-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen an der Bushaltestelle.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are no other people at the bus stop.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Whip-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>   
+		
+		<condition id="33" name="Textual-Cafe-Head-9" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen im Café. Diese Personen trinken zum Beispiel etwas oder unterhalten sich.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are nine other people in the café. These people have a drink or have a conversation, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Head-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>   
+		
+		<condition id="34" name="Textual-Bus-Shoulder-0" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen an der Bushaltestelle.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are no other people at the bus stop.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Shoulder-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="35" name="Textual-Bus-Proximity-0" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="en">Bus stop</condition-title>
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen an der Bushaltestelle.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are no other people at the bus stop.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Hand-proximity-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="36" name="Textual-Cafe-Whip-0" withinGroup="context-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in dem Café.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are no other people in the café.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Whip-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>   
+		
+		<condition id="37" name="Textual-Library-Whip-9" withinGroup="context-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen in der Bibliothek. Diese Personen suchen zum Beispiel Bücher heraus oder lesen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are nine other people in the library. These people pick out or read books, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Whip-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="38" name="Textual-Bus-Head-0" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bushaltestelle</condition-title>
+			<condition-title lang="en">Bus stop</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht an einer Bushaltestelle und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen an der Bushaltestelle.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands at a bus stop and uses the following gesture to control a device. There are no other people at the bus stop.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Hand-proximity-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="39" name="Textual-Library-Whip-0" withinGroup="context-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in der Bibliothek.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are no other people in the library.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Whip-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>
+		
+		<condition id="40" name="Textual-Cafe-Shoulder-0" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in dem Café.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are no other people in the café.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Shoulder-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="41" name="Textual-Library-Shoulder-9" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen in der Bibliothek. Diese Personen suchen zum Beispiel Bücher heraus oder lesen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are nine other people in the library. These people pick out or read books, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Shoulder-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>
+		
+		<condition id="42" name="Textual-Cafe-Proximity-0" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in dem Café.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are no other people in the café.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Hand-proximity-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="43" name="Textual-Library-Proximity-9" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen in der Bibliothek. Diese Personen suchen zum Beispiel Bücher heraus oder lesen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are nine other people in the library. These people pick out or read books, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Hand-proximity-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="44" name="Textual-Cafe-Head-0" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Café</condition-title>
+			<condition-title lang="en">Café</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einem Café und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in dem Café.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a café and uses the following gesture to control a device. There are no other people in the café.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Head-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="45" name="Textual-Library-Head-9" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich neun weitere Personen in der Bibliothek. Diese Personen suchen zum Beispiel Bücher heraus oder lesen.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are nine other people in the library. These people pick out or read books, for example.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Head-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="46" name="Textual-Library-Shoulder-0" withinGroup="context-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in der Bibliothek.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are no other people in the library.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Shoulder-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="47" name="Textual-Library-Proximity-0" withinGroup="context-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in der Bibliothek.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are no other people in the library.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Hand-proximity-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="48" name="Textual-Library-Head-0" withinGroup="context-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Bibliothek</condition-title>
+			<condition-title lang="en">Library</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de"><strong>Szenenbeschreibung:</strong>  Eine Person steht in einer Bibliothek und nutzt die folgende Geste zur Steuerung eines Geräts. Es befinden sich keine weiteren Personen in der Bibliothek.</condition-description>
+			<condition-description lang="en"><strong>Scene description: </strong> A person stands in a library and uses the following gesture to control a device. There are no other people in the library.</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/Clean/Clean-Head-gif.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>CONTEXT</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<!-- ACOTRS -->
+		
+		<condition id="49" name="Actor1-Male-Head-Real" withinGroup="actor-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p1_head.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="50" name="Actor1-Male-Proximity-Real" withinGroup="actor-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p1_proximity.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="51" name="Actor1-Male-Shoulder-Real" withinGroup="actor-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p1_shoulder.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="52" name="Actor1-Male-Whip-Real" withinGroup="actor-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p1_whip.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="53" name="Actor2-Female-Head-Real" withinGroup="actor-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p2_head.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="54" name="Actor2-Female-Proximity-Real" withinGroup="actor-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p2_proximity.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="55" name="Actor2-Female-Shoulder-Real" withinGroup="actor-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p2_shoulder.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="56" name="Actor2-Female-Whip-Real" withinGroup="actor-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p2_whip.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+				
+		<condition id="57" name="Actor3-Female-Head-Real" withinGroup="actor-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p3_head.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="58" name="Actor3-Female-Proximity-Real" withinGroup="actor-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p3_proximity.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="59" name="Actor3-Female-Shoulder-Real" withinGroup="actor-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p3_shoulder.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="60" name="Actor3-Female-Whip-Real" withinGroup="actor-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p3_whip.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  		
+		
+		<condition id="61" name="Actor4-Male-Head-Real" withinGroup="actor-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p4_head.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="62" name="Actor4-Male-Proximity-Real" withinGroup="actor-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p4_proximity.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="63" name="Actor4-Male-Shoulder-Real" withinGroup="actor-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p4_shoulder.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="64" name="Actor4-Male-Whip-Real" withinGroup="actor-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/real_p4_whip.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="65" name="Actor1-Male-Head-Virtual" withinGroup="actor-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p1_head.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="66" name="Actor1-Male-Proximity-Virtual" withinGroup="actor-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p1_proximity.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="67" name="Actor1-Male-Shoulder-Virtual" withinGroup="actor-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p1_shoulder.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="68" name="Actor1-Male-Whip-Virtual" withinGroup="actor-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p1_whip.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition> 
+		
+		<condition id="69" name="Actor2-Female-Head-Virtual" withinGroup="actor-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p2_head.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="70" name="Actor2-Female-Proximity-Virtual" withinGroup="actor-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p2_proximity.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="71" name="Actor2-Female-Shoulder-Virtual" withinGroup="actor-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p2_shoulder.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="72" name="Actor2-Female-Whip-Virtual" withinGroup="actor-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p2_whip.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+				
+		<condition id="73" name="Actor3-Female-Head-Virtual" withinGroup="actor-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p3_head.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="74" name="Actor3-Female-Proximity-Virtual" withinGroup="actor-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p3_proximity.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="75" name="Actor3-Female-Shoulder-Virtual" withinGroup="actor-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p3_shoulder.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="76" name="Actor3-Female-Whip-Virtual" withinGroup="actor-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p3_whip.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  		
+		
+		<condition id="77" name="Actor4-Male-Head-Virtual" withinGroup="actor-head">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p4_head.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="78" name="Actor4-Male-Proximity-Virtual" withinGroup="actor-proximity">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p4_proximity.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="79" name="Actor4-Male-Shoulder-Virtual" withinGroup="actor-shoulder">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p4_shoulder.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<condition id="80" name="Actor4-Male-Whip-Virtual" withinGroup="actor-whip">
+			<!-- CONDITION TITLE-->
+			<condition-title lang="de">Soziale Akzeptanz</condition-title>
+			<condition-title lang="en">Social Acceptability</condition-title>
+			<!-- CONDITION DESCRIPTION (OR QUESTION!) -->
+			<condition-description lang="de">Ein Person mit einem Smartphone führt folgende Geste aus:</condition-description>
+			<condition-description lang="en">A person with a smartphone performs the following gestures:</condition-description>
+			<!-- CONDITION STIMULI supported types: image (GIF, JPG...) and video (youtube link) -->
+			<condition-media type="image" height="100%" width="100%">stimuli/RealVsVR/virtual_p4_whip.gif</condition-media> 
+			<!-- CONDITION QUESTION (if necessary) -->
+			<condition-questions lang="en"></condition-questions>
+			<condition-questions lang="de"></condition-questions>
+			<!-- YOUR QUESTIONNAIRES (APPEAR IN THIS ORDER WHEN NOT RANDOM) -->
+			<condition-questionnaire>ACTOR</condition-questionnaire>
+			<condition-questionnaire>GENDER</condition-questionnaire>
+			<condition-questionnaire>WEAR</condition-questionnaire>
+			<condition-questionnaire>SCM</condition-questionnaire>
+		</condition>  
+		
+		<!-- FINAL-QUESTIONS -->
+		<condition id="81" name="finalcondition">		
+			<condition-title lang="de">Letzte Fragen</condition-title>
+			<condition-title lang="en">Last Questions</condition-title>
+			<condition-description lang="de">Wir würden uns über Ihr Feedback sehr freuen</condition-description>
+			<condition-description lang="en">We would be happy about your feedback</condition-description>
+			<condition-questionnaire>FINAL</condition-questionnaire> 
+		</condition>
+		
+	</conditions>
+	
+	<demographics items="6">
+		<demographics-title lang="de">Demografische Angaben </demographics-title>
+		<demographics-title lang="en">Demographics</demographics-title>
+		<demographics-description lang="de">Ein paar demographische Angaben:</demographics-description>
+		<demographics-description lang="en">Some demographics about you:</demographics-description>
+		
+		<item id="1" type="dropdown" noderef="1" name="Gender" required="true">
+			<item-text lang="de">Geschlecht</item-text>
+			<item-text lang="en">Gender</item-text>
+		</item>
+		
+		<item id="2" type="dropdown" noderef="2" name="Occupation" required="true">
+			<item-text lang="de">Berufsfeld</item-text>
+			<item-text lang="en">Occupation</item-text>
+		</item>
+		
+		<item id="3" type="dropdown" noderef="3" name="Graduation" required="true">
+			<item-text lang="de">Abschluss</item-text>
+			<item-text lang="en">Graduation</item-text>
+		</item>
+		
+		<item id="4" type="dropdown" noderef="4" name="Nationality" required="true">
+			<item-text lang="de">Nationalität</item-text>
+			<item-text lang="en">Nationality</item-text>
+		</item>
+		
+		<item id="5" type="number" noderef="5" name="Age" required="true" min="0" max="999" step="1">
+			<item-text lang="de">Alter</item-text>
+			<item-text lang="en">Age</item-text>
+		</item>
+		
+		<item id="6" type="dropdown" noderef="6" name="Smartphone" required="true">
+			<item-text lang="de">Ich besitze ein Smartphone</item-text>
+			<item-text lang="en">I own a smartphone</item-text>
+		</item>
+		
+		<number id="5">
+			<placeholder-text lang="de">Bitte eingeben. . .</placeholder-text>
+			<placeholder-text lang="en">Please enter. . .</placeholder-text>
+		</number>
+		
+		<dropdown id="6" items="3" name="Smartphone">		
+			<option item="0" lang="de" value="">Bitte auswählen. . .</option>
+			<option item="0" lang="en" value="">Please select. . .</option>
+			<option item="1" lang="de" value="no">nein</option>
+			<option item="1" lang="en" value="no">no</option>
+			<option item="2" lang="de" value="yes">ja</option>
+			<option item="2" lang="en" value="yes">yes</option>
+		</dropdown>
+		
+		<dropdown id="1" items="5" name="Gender">		
+			<option item="0" lang="de" value="">Bitte auswählen. . .</option>
+			<option item="0" lang="en" value="">Please select. . .</option>
+			<option item="1" lang="de" value="male">männlich</option>
+			<option item="1" lang="en" value="male">male</option>
+			<option item="2" lang="de" value="female">weiblich</option>
+			<option item="2" lang="en" value="female">female</option>
+			<option item="3" lang="de" value="other">andere</option>
+			<option item="3" lang="en" value="other">other</option>
+			<option item="4" lang="de" value="not specified">ohne Angabe</option>
+			<option item="4" lang="en" value="not specified">not specified</option>
+		</dropdown>
+		
+		<dropdown id="2" items="15" name="Occupation">		
+			<option item="0" lang="de" value="">Bitte auswählen. . .</option>
+			<option item="0" lang="en" value="">Please select. . .</option>
+			<option item="1" lang="de" value="Management">Management</option>
+			<option item="1" lang="en" value="Management">Management</option>
+			<option item="2" lang="de" value="Natural Sciences">Naturwissenschaften</option>
+			<option item="2" lang="en" value="Natural Sciences">Natural Sciences</option>
+			<option item="3" lang="de" value="Engineering">Ingenieurswesen</option>
+			<option item="3" lang="en" value="Engineering">Engineering</option>
+			<option item="4" lang="de" value="Health">Gesundheitswesen</option>
+			<option item="4" lang="en" value="Health">Health</option>
+			<option item="5" lang="de" value="Law and Order">Recht und Gesetz</option>
+			<option item="5" lang="en" value="Law and Order">Law and Order</option>
+			<option item="6" lang="de" value="Clerical">Verwaltung</option>
+			<option item="6" lang="en" value="Clerical">Clerical</option>
+			<option item="7" lang="de" value="Spiritual">Geistlich</option>
+			<option item="7" lang="en" value="Spiritual">Spiritual</option>
+			<option item="8" lang="de" value="Spiritual">Sozialwesen</option>
+			<option item="8" lang="en" value="Spiritual">Social</option>
+			<option item="9" lang="de" value="Humanities">Geisteswissenschaften</option>
+			<option item="9" lang="en" value="Humanities">Humanities</option>
+			<option item="10" lang="de" value="Services and Sales">Dienstleistungen</option>
+			<option item="10" lang="en" value="Services and Sales">Services and Sales</option>
+			<option item="11" lang="de" value="Agriculture and Food">Nahrung und Agrar</option>
+			<option item="11" lang="en" value="Agriculture and Food">Agriculture and Food</option>
+			<option item="12" lang="de" value="Craft">Handwerk</option>
+			<option item="12" lang="en" value="Craft">Craft</option>
+			<option item="13" lang="de" value="Military">Militär</option>
+			<option item="13" lang="en" value="Military">Military</option>
+			<option item="14" lang="de" value="Others">Andere</option>
+			<option item="14" lang="en" value="Others">Others</option>
+		</dropdown>
+		
+		<dropdown id="3" items="8" name="Graduation">		
+			<option item="0" lang="de" value="">Bitte auswählen. . .</option>
+			<option item="0" lang="en" value="">Please select. . .</option>
+			<option item="1" lang="de" value="None">(noch) kein Abschluss</option>
+			<option item="1" lang="en" value="None">none</option>
+			<option item="2" lang="de" value="Primary School">Grundschule</option>
+			<option item="2" lang="en" value="Primary School">primary school</option>
+			<option item="3" lang="de" value="Secondary School">Haupt-/Realschulabschluss</option>
+			<option item="3" lang="en" value="Secondary School">secondary school</option>
+			<option item="4" lang="de" value="High School">Abitur / Fachabitur</option>
+			<option item="4" lang="en" value="High School">post-secondary school diploma / high school diploma</option>
+			<option item="5" lang="de" value="Vocational Training">abgeschlossene Berufsausbildung</option>
+			<option item="5" lang="en" value="Vocational Training">completed vocational training</option>
+			<option item="6" lang="de" value="University">abgeschlossenes Studium</option>
+			<option item="6" lang="en" value="University">completed university studies</option>
+			<option item="7" lang="de" value="Doctoral Degree">Promotion</option>
+			<option item="7" lang="en" value="Doctoral Degree">doctoral degree</option>
+		</dropdown>
+		
+		
+		<dropdown id="4" items="257" name="Nationality">					
+		    <option value="" item="0" lang="de">Bitte auswählen. . .</option>
+			<option value="" item="0" lang="en">Please select. . .</option>
+			<option value="Afghanistan" item="1" lang="en">Afghanistan</option>
+			<option value="Akrotiri" item="2" lang="en">Akrotiri</option>
+			<option value="Albania" item="3" lang="en">Albania</option>
+			<option value="Algeria" item="4" lang="en">Algeria</option>
+			<option value="American Samoa" item="5" lang="en">American Samoa</option>
+			<option value="Andorra" item="6" lang="en">Andorra</option>
+			<option value="Angola" item="7" lang="en">Angola</option>
+			<option value="Anguilla" item="8" lang="en">Anguilla</option>
+			<option value="Antarctica" item="9" lang="en">Antarctica</option>
+			<option value="Antigua and Barbuda" item="10" lang="en">Antigua and Barbuda</option>
+			<option value="Argentina" item="11" lang="en">Argentina</option>
+			<option value="Armenia" item="12" lang="en">Armenia</option>
+			<option value="Aruba" item="13" lang="en">Aruba</option>
+			<option value="Ashmore and Cartier I." item="14" lang="en">Ashmore and Cartier I.</option>
+			<option value="Australia" item="15" lang="en">Australia</option>
+			<option value="Austria" item="16" lang="en">Austria</option>
+			<option value="Azerbaijan" item="17" lang="en">Azerbaijan</option>
+			<option value="Bahamas, The" item="18" lang="en">Bahamas, The</option>
+			<option value="Bahrain" item="19" lang="en">Bahrain</option>
+			<option value="Bangladesh" item="20" lang="en">Bangladesh</option>
+			<option value="Barbados" item="21" lang="en">Barbados</option>
+			<option value="Bassas da India" item="22" lang="en">Bassas da India</option>
+			<option value="Belarus" item="23" lang="en">Belarus</option>
+			<option value="Belgium" item="24" lang="en">Belgium</option>
+			<option value="Belize" item="25" lang="en">Belize</option>
+			<option value="Benin" item="26" lang="en">Benin</option>
+			<option value="Bermuda" item="27" lang="en">Bermuda</option>
+			<option value="Bhutan" item="28" lang="en">Bhutan</option>
+			<option value="Bolivia" item="29" lang="en">Bolivia</option>
+			<option value="Bosnia and Herzegovina" item="30" lang="en">Bosnia and Herzegovina</option>
+			<option value="Botswana" item="31" lang="en">Botswana</option>
+			<option value="Bouvet Island" item="32" lang="en">Bouvet Island</option>
+			<option value="Brazil" item="33" lang="en">Brazil</option>
+			<option value="British Indian" item="34" lang="en">British Indian</option>
+			<option value="British Virgin I." item="35" lang="en">British Virgin I.</option>
+			<option value="Brunei" item="36" lang="en">Brunei</option>
+			<option value="Bulgaria" item="37" lang="en">Bulgaria</option>
+			<option value="Burkina Faso" item="38" lang="en">Burkina Faso</option>
+			<option value="Burma" item="39" lang="en">Burma</option>
+			<option value="Burundi" item="40" lang="en">Burundi</option>
+			<option value="Cambodia" item="41" lang="en">Cambodia</option>
+			<option value="Cameroon" item="42" lang="en">Cameroon</option>
+			<option value="Canada" item="43" lang="en">Canada</option>
+			<option value="Cape Verde" item="44" lang="en">Cape Verde</option>
+			<option value="Cayman I." item="45" lang="en">Cayman I.</option>
+			<option value="Central African Rep." item="46" lang="en">Central African Rep.</option>
+			<option value="Chad" item="47" lang="en">Chad</option>
+			<option value="Chile" item="48" lang="en">Chile</option>
+			<option value="China" item="49" lang="en">China</option>
+			<option value="Christmas Island" item="50" lang="en">Christmas Island</option>
+			<option value="Clipperton Island" item="51" lang="en">Clipperton Island</option>
+			<option value="Cocos (Keeling) I." item="52" lang="en">Cocos (Keeling) I.</option>
+			<option value="Colombia" item="53" lang="en">Colombia</option>
+			<option value="Comoros" item="54" lang="en">Comoros</option>
+			<option value="Congo" item="55" lang="en">Congo</option>
+			<option value="Cook I." item="56" lang="en">Cook I.</option>
+			<option value="Coral Sea I." item="57" lang="en">Coral Sea I.</option>
+			<option value="Costa Rica" item="58" lang="en">Costa Rica</option>
+			<option value="Cote d'Ivoire" item="59" lang="en">Cote d'Ivoire</option>
+			<option value="Croatia" item="60" lang="en">Croatia</option>
+			<option value="Cuba" item="61" lang="en">Cuba</option>
+			<option value="Cyprus" item="62" lang="en">Cyprus</option>
+			<option value="Czech Rep." item="63" lang="en">Czech Rep.</option>
+			<option value="Denmark" item="64" lang="en">Denmark</option>
+			<option value="Dhekelia" item="65" lang="en">Dhekelia</option>
+			<option value="Djibouti" item="66" lang="en">Djibouti</option>
+			<option value="Dominica" item="67" lang="en">Dominica</option>
+			<option value="Dominican Rep." item="68" lang="en">Dominican Rep.</option>
+			<option value="Ecuador" item="69" lang="en">Ecuador</option>
+			<option value="Egypt" item="70" lang="en">Egypt</option>
+			<option value="El Salvador" item="71" lang="en">El Salvador</option>
+			<option value="Equatorial Guinea" item="72" lang="en">Equatorial Guinea</option>
+			<option value="Eritrea" item="73" lang="en">Eritrea</option>
+			<option value="Estonia" item="74" lang="en">Estonia</option>
+			<option value="Ethiopia" item="75" lang="en">Ethiopia</option>
+			<option value="Europa Island" item="76" lang="en">Europa Island</option>
+			<option value="Falkland I." item="77" lang="en">Falkland I.</option>
+			<option value="Faroe I." item="78" lang="en">Faroe I.</option>
+			<option value="Fiji" item="79" lang="en">Fiji</option>
+			<option value="Finland" item="80" lang="en">Finland</option>
+			<option value="France" item="81" lang="en">France</option>
+			<option value="French Guiana" item="82" lang="en">French Guiana</option>
+			<option value="French Polynesia" item="83" lang="en">French Polynesia</option>
+			<option value="French Southern" item="84" lang="en">French Southern</option>
+			<option value="Gabon" item="85" lang="en">Gabon</option>
+			<option value="Gambia, The" item="86" lang="en">Gambia, The</option>
+			<option value="Gaza Strip" item="87" lang="en">Gaza Strip</option>
+			<option value="Georgia" item="88" lang="en">Georgia</option>
+			<option value="Germany" item="89" lang="en">Germany</option>
+			<option value="Ghana" item="90" lang="en">Ghana</option>
+			<option value="Gibraltar" item="91" lang="en">Gibraltar</option>
+			<option value="Glorioso I." item="92" lang="en">Glorioso I.</option>
+			<option value="Greece" item="93" lang="en">Greece</option>
+			<option value="Greenland" item="94" lang="en">Greenland</option>
+			<option value="Grenada" item="95" lang="en">Grenada</option>
+			<option value="Guadeloupe" item="96" lang="en">Guadeloupe</option>
+			<option value="Guam" item="97" lang="en">Guam</option>
+			<option value="Guatemala" item="98" lang="en">Guatemala</option>
+			<option value="Guernsey" item="99" lang="en">Guernsey</option>
+			<option value="Guinea" item="100" lang="en">Guinea</option>
+			<option value="Guinea-Bissau" item="101" lang="en">Guinea-Bissau</option>
+			<option value="Guyana" item="102" lang="en">Guyana</option>
+			<option value="Haiti" item="103" lang="en">Haiti</option>
+			<option value="Heard Island" item="104" lang="en">Heard Island</option>
+			<option value="Holy See (Vatican City)" item="105" lang="en">Holy See (Vatican City)</option>
+			<option value="Honduras" item="106" lang="en">Honduras</option>
+			<option value="Hong Kong" item="107" lang="en">Hong Kong</option>
+			<option value="Hungary" item="108" lang="en">Hungary</option>
+			<option value="Iceland" item="109" lang="en">Iceland</option>
+			<option value="India" item="110" lang="en">India</option>
+			<option value="Indonesia" item="111" lang="en">Indonesia</option>
+			<option value="Iran" item="112" lang="en">Iran</option>
+			<option value="Iraq" item="113" lang="en">Iraq</option>
+			<option value="Ireland" item="114" lang="en">Ireland</option>
+			<option value="Isle of Man" item="115" lang="en">Isle of Man</option>
+			<option value="Israel" item="116" lang="en">Israel</option>
+			<option value="Italy" item="117" lang="en">Italy</option>
+			<option value="Jamaica" item="118" lang="en">Jamaica</option>
+			<option value="Jan Mayen" item="119" lang="en">Jan Mayen</option>
+			<option value="Japan" item="120" lang="en">Japan</option>
+			<option value="Jersey" item="121" lang="en">Jersey</option>
+			<option value="Jordan" item="122" lang="en">Jordan</option>
+			<option value="Juan de Nova I." item="123" lang="en">Juan de Nova I.</option>
+			<option value="Kazakhstan" item="124" lang="en">Kazakhstan</option>
+			<option value="Kenya" item="125" lang="en">Kenya</option>
+			<option value="Kiribati" item="126" lang="en">Kiribati</option>
+			<option value="Korea, North" item="127" lang="en">Korea, North</option>
+			<option value="Korea, South" item="128" lang="en">Korea, South</option>
+			<option value="Kuwait" item="129" lang="en">Kuwait</option>
+			<option value="Kyrgyzstan" item="130" lang="en">Kyrgyzstan</option>
+			<option value="Laos" item="131" lang="en">Laos</option>
+			<option value="Latvia" item="132" lang="en">Latvia</option>
+			<option value="Lebanon" item="133" lang="en">Lebanon</option>
+			<option value="Lesotho" item="134" lang="en">Lesotho</option>
+			<option value="Liberia" item="135" lang="en">Liberia</option>
+			<option value="Libya" item="136" lang="en">Libya</option>
+			<option value="Liechtenstein" item="137" lang="en">Liechtenstein</option>
+			<option value="Lithuania" item="138" lang="en">Lithuania</option>
+			<option value="Luxembourg" item="139" lang="en">Luxembourg</option>
+			<option value="Macau" item="140" lang="en">Macau</option>
+			<option value="Macedonia" item="141" lang="en">Macedonia</option>
+			<option value="Madagascar" item="142" lang="en">Madagascar</option>
+			<option value="Malawi" item="143" lang="en">Malawi</option>
+			<option value="Malaysia" item="144" lang="en">Malaysia</option>
+			<option value="Maldives" item="145" lang="en">Maldives</option>
+			<option value="Mali" item="146" lang="en">Mali</option>
+			<option value="Malta" item="147" lang="en">Malta</option>
+			<option value="Marshall I." item="148" lang="en">Marshall I.</option>
+			<option value="Martinique" item="149" lang="en">Martinique</option>
+			<option value="Mauritania" item="150" lang="en">Mauritania</option>
+			<option value="Mauritius" item="151" lang="en">Mauritius</option>
+			<option value="Mayotte" item="152" lang="en">Mayotte</option>
+			<option value="Mexico" item="153" lang="en">Mexico</option>
+			<option value="Micronesia" item="154" lang="en">Micronesia</option>
+			<option value="Moldova" item="155" lang="en">Moldova</option>
+			<option value="Monaco" item="156" lang="en">Monaco</option>
+			<option value="Mongolia" item="157" lang="en">Mongolia</option>
+			<option value="Montserrat" item="158" lang="en">Montserrat</option>
+			<option value="Morocco" item="159" lang="en">Morocco</option>
+			<option value="Mozambique" item="160" lang="en">Mozambique</option>
+			<option value="Namibia" item="161" lang="en">Namibia</option>
+			<option value="Nauru" item="162" lang="en">Nauru</option>
+			<option value="Navassa Island" item="163" lang="en">Navassa Island</option>
+			<option value="Nepal" item="164" lang="en">Nepal</option>
+			<option value="Netherlands" item="165" lang="en">Netherlands</option>
+			<option value="Netherlands Antilles" item="166" lang="en">Netherlands Antilles</option>
+			<option value="New Caledonia" item="167" lang="en">New Caledonia</option>
+			<option value="New Zealand" item="168" lang="en">New Zealand</option>
+			<option value="Nicaragua" item="169" lang="en">Nicaragua</option>
+			<option value="Niger" item="170" lang="en">Niger</option>
+			<option value="Nigeria" item="171" lang="en">Nigeria</option>
+			<option value="Niue" item="172" lang="en">Niue</option>
+			<option value="Norfolk Island" item="173" lang="en">Norfolk Island</option>
+			<option value="Northern Mariana I." item="174" lang="en">Northern Mariana I.</option>
+			<option value="Norway" item="175" lang="en">Norway</option>
+			<option value="Oman" item="176" lang="en">Oman</option>
+			<option value="Pakistan" item="177" lang="en">Pakistan</option>
+			<option value="Palau" item="178" lang="en">Palau</option>
+			<option value="Panama" item="179" lang="en">Panama</option>
+			<option value="Papua New Guinea" item="180" lang="en">Papua New Guinea</option>
+			<option value="Paracel I." item="181" lang="en">Paracel I.</option>
+			<option value="Paraguay" item="182" lang="en">Paraguay</option>
+			<option value="Peru" item="183" lang="en">Peru</option>
+			<option value="Philippines" item="184" lang="en">Philippines</option>
+			<option value="Pitcairn I." item="185" lang="en">Pitcairn I.</option>
+			<option value="Poland" item="186" lang="en">Poland</option>
+			<option value="Portugal" item="187" lang="en">Portugal</option>
+			<option value="Puerto Rico" item="188" lang="en">Puerto Rico</option>
+			<option value="Qatar" item="189" lang="en">Qatar</option>
+			<option value="Reunion" item="190" lang="en">Reunion</option>
+			<option value="Romania" item="191" lang="en">Romania</option>
+			<option value="Russia" item="192" lang="en">Russia</option>
+			<option value="Rwanda" item="193" lang="en">Rwanda</option>
+			<option value="Saint Helena" item="194" lang="en">Saint Helena</option>
+			<option value="Saint Kitts and Nevis" item="195" lang="en">Saint Kitts and Nevis</option>
+			<option value="Saint Lucia" item="196" lang="en">Saint Lucia</option>
+			<option value="Saint Pierre" item="197" lang="en">Saint Pierre</option>
+			<option value="Saint Vincent" item="198" lang="en">Saint Vincent</option>
+			<option value="Samoa" item="199" lang="en">Samoa</option>
+			<option value="San Marino" item="200" lang="en">San Marino</option>
+			<option value="Sao Tome and Principe" item="201" lang="en">Sao Tome and Principe</option>
+			<option value="Saudi Arabia" item="202" lang="en">Saudi Arabia</option>
+			<option value="Senegal" item="203" lang="en">Senegal</option>
+			<option value="Serbia and Montenegro" item="204" lang="en">Serbia and Montenegro</option>
+			<option value="Seychelles" item="205" lang="en">Seychelles</option>
+			<option value="Sierra Leone" item="206" lang="en">Sierra Leone</option>
+			<option value="Singapore" item="207" lang="en">Singapore</option>
+			<option value="Slovakia" item="208" lang="en">Slovakia</option>
+			<option value="Slovenia" item="209" lang="en">Slovenia</option>
+			<option value="Solomon I." item="210" lang="en">Solomon I.</option>
+			<option value="Somalia" item="211" lang="en">Somalia</option>
+			<option value="South Africa" item="212" lang="en">South Africa</option>
+			<option value="South Georgia" item="213" lang="en">South Georgia</option>
+			<option value="Spain" item="214" lang="en">Spain</option>
+			<option value="Spratly I." item="215" lang="en">Spratly I.</option>
+			<option value="Sri Lanka" item="216" lang="en">Sri Lanka</option>
+			<option value="Sudan" item="217" lang="en">Sudan</option>
+			<option value="Suriname" item="218" lang="en">Suriname</option>
+			<option value="Svalbard" item="219" lang="en">Svalbard</option>
+			<option value="Swaziland" item="220" lang="en">Swaziland</option>
+			<option value="Sweden" item="221" lang="en">Sweden</option>
+			<option value="Switzerland" item="222" lang="en">Switzerland</option>
+			<option value="Syria" item="223" lang="en">Syria</option>
+			<option value="Taiwan" item="224" lang="en">Taiwan</option>
+			<option value="Tajikistan" item="225" lang="en">Tajikistan</option>
+			<option value="Tanzania" item="226" lang="en">Tanzania</option>
+			<option value="Thailand" item="227" lang="en">Thailand</option>
+			<option value="Timor-Leste" item="228" lang="en">Timor-Leste</option>
+			<option value="Togo" item="229" lang="en">Togo</option>
+			<option value="Tokelau" item="230" lang="en">Tokelau</option>
+			<option value="Tonga" item="231" lang="en">Tonga</option>
+			<option value="Trinidad and Tobago" item="232" lang="en">Trinitemad and Tobago</option>
+			<option value="Tromelin Island" item="233" lang="en">Tromelin Island</option>
+			<option value="Tunisia" item="234" lang="en">Tunisia</option>
+			<option value="Turkey" item="235" lang="en">Turkey</option>
+			<option value="Turkmenistan" item="236" lang="en">Turkmenistan</option>
+			<option value="Turks and Caicos I." item="237" lang="en">Turks and Caicos I.</option>
+			<option value="Tuvalu" item="238" lang="en">Tuvalu</option>
+			<option value="Uganda" item="239" lang="en">Uganda</option>
+			<option value="Ukraine" item="240" lang="en">Ukraine</option>
+			<option value="United Arab Emirates" item="241" lang="en">United Arab Emirates</option>
+			<option value="United Kingdom" item="242" lang="en">United Kingdom</option>
+			<option value="United States of America" item="243" lang="en">United States of America</option>
+			<option value="Uruguay" item="244" lang="en">Uruguay</option>
+			<option value="Uzbekistan" item="245" lang="en">Uzbekistan</option>
+			<option value="Vanuatu" item="246" lang="en">Vanuatu</option>
+			<option value="Venezuela" item="247" lang="en">Venezuela</option>
+			<option value="Vietnam" item="248" lang="en">Vietnam</option>
+			<option value="Virgin I." item="249" lang="en">Virgin I.</option>
+			<option value="Wake Island" item="250" lang="en">Wake Island</option>
+			<option value="Wallis and Futuna" item="251" lang="en">Wallis and Futuna</option>
+			<option value="West Bank" item="252" lang="en">West Bank</option>
+			<option value="Western Sahara" item="253" lang="en">Western Sahara</option>
+			<option value="Yemen" item="254" lang="en">Yemen</option>
+			<option value="Zambia" item="255" lang="en">Zambia</option>
+			<option value="Zimbabwe" item="256" lang="en">Zimbabwe</option>
+			
+			<option value="Afghanistan" item="1" lang="de">Afghanistan</option>
+			<option value="Akrotiri" item="2" lang="de">Akrotiri</option>
+			<option value="Albania" item="3" lang="de">Albanien</option>
+			<option value="Algeria" item="4" lang="de">Algerien</option>
+			<option value="American Samoa" item="5" lang="de">American Samoa</option>
+			<option value="Andorra" item="6" lang="de">Andorra</option>
+			<option value="Angola" item="7" lang="de">Angola</option>
+			<option value="Anguilla" item="8" lang="de">Anguilla</option>
+			<option value="Antarctica" item="9" lang="de">Antarktis</option>
+			<option value="Antigua and Barbuda" item="10" lang="de">Antigua und Barbuda</option>
+			<option value="Argentina" item="11" lang="de">Argentina</option>
+			<option value="Armenia" item="12" lang="de">Armenien</option>
+			<option value="Aruba" item="13" lang="de">Aruba</option>
+			<option value="Ashmore and Cartier I." item="14" lang="de">Ashmore und Cartier I.</option>
+			<option value="Australia" item="15" lang="de">Australien</option>
+			<option value="Austria" item="16" lang="de">Österreich</option>
+			<option value="Azerbaijan" item="17" lang="de">Aserbaitemschan</option>
+			<option value="Bahamas, The" item="18" lang="de">Bahamas</option>
+			<option value="Bahrain" item="19" lang="de">Bahrain</option>
+			<option value="Bangladesh" item="20" lang="de">Bangladesch</option>
+			<option value="Barbados" item="21" lang="de">Barbados</option>
+			<option value="Bassas da India" item="22" lang="de">Bassas da India</option>
+			<option value="Belarus" item="23" lang="de">Belarus</option>
+			<option value="Belgium" item="24" lang="de">Belgien</option>
+			<option value="Belize" item="25" lang="de">Belize</option>
+			<option value="Benin" item="26" lang="de">Benin</option>
+			<option value="Bermuda" item="27" lang="de">Bermuda</option>
+			<option value="Bhutan" item="28" lang="de">Bhutan</option>
+			<option value="Bolivia" item="29" lang="de">Bolivien</option>
+			<option value="Bosnia and Herzegovina" item="30" lang="de">Bosnien und Herzegowina</option>
+			<option value="Botswana" item="31" lang="de">Botswana</option>
+			<option value="Bouvet Island" item="32" lang="de">Bouvet-Insel</option>
+			<option value="Brazil" item="33" lang="de">Brazil</option>
+			<option value="British Indian" item="34" lang="de">British Indian</option>
+			<option value="British Virgin I." item="35" lang="de">British Virgin I.</option>
+			<option value="Brunei" item="36" lang="de">Brunei</option>
+			<option value="Bulgaria" item="37" lang="de">Bulgarien</option>
+			<option value="Burkina Faso" item="38" lang="de">Burkina Faso</option>
+			<option value="Burma" item="39" lang="de">Burma</option>
+			<option value="Burundi" item="40" lang="de">Burundi</option>
+			<option value="Cambodia" item="41" lang="de">Cambodia</option>
+			<option value="Cameroon" item="42" lang="de">Kamerun</option>
+			<option value="Canada" item="43" lang="de">Kanada</option>
+			<option value="Cape Verde" item="44" lang="de">Kap Verde</option>
+			<option value="Cayman I." item="45" lang="de">Cayman I.</option>
+			<option value="Central African Rep." item="46" lang="de">Zentralafrikanische Rep.</option>
+			<option value="Chad" item="47" lang="de">Chad</option>
+			<option value="Chile" item="48" lang="de">Chile</option>
+			<option value="China" item="49" lang="de">China</option>
+			<option value="Christmas Island" item="50" lang="de">Christmas-Insel</option>
+			<option value="Clipperton Island" item="51" lang="de">Clipperton</option>
+			<option value="Cocos (Keeling) I." item="52" lang="de">Cocos (Keeling) I.</option>
+			<option value="Colombia" item="53" lang="de">Kolumbien</option>
+			<option value="Comoros" item="54" lang="de">Komoren</option>
+			<option value="Congo" item="55" lang="de">Congo</option>
+			<option value="Cook I." item="56" lang="de">Koch I.</option>
+			<option value="Coral Sea I." item="57" lang="de">Coral Sea I.</option>
+			<option value="Costa Rica" item="58" lang="de">Costa Rica</option>
+			<option value="Cote d'Ivoire" item="59" lang="de">Elfenbeinküste</option>
+			<option value="Croatia" item="60" lang="de">Kroatien</option>
+			<option value="Cuba" item="61" lang="de">Cuba</option>
+			<option value="Cyprus" item="62" lang="de">Zypern</option>
+			<option value="Czech Rep." item="63" lang="de">Tschechische Rep.</option>
+			<option value="Denmark" item="64" lang="de">Dänemark</option>
+			<option value="Dhekelia" item="65" lang="de">Dhekelia</option>
+			<option value="Djibouti" item="66" lang="de">Dschibuti</option>
+			<option value="Dominica" item="67" lang="de">Dominica</option>
+			<option value="Dominican Rep." item="68" lang="de">Dominikanische Rep.</option>
+			<option value="Ecuador" item="69" lang="de">Ecuador</option>
+			<option value="Egypt" item="70" lang="de">Egypt</option>
+			<option value="El Salvador" item="71" lang="de">El Salvador</option>
+			<option value="Equatorial Guinea" item="72" lang="de">Äquatorialguinea</option>
+			<option value="Eritrea" item="73" lang="de">Eritrea</option>
+			<option value="Estonia" item="74" lang="de">Estonia</option>
+			<option value="Ethiopia" item="75" lang="de">Äthiopien</option>
+			<option value="Europa Island" item="76" lang="de">Europa Insel</option>
+			<option value="Falkland I." item="77" lang="de">Falkland-I</option>
+			<option value="Faroe I." item="78" lang="de">Färöer I.</option>
+			<option value="Fiji" item="79" lang="de">Fiji</option>
+			<option value="Finland" item="80" lang="de">Finnland</option>
+			<option value="France" item="81" lang="de">Frankreich</option>
+			<option value="French Guiana" item="82" lang="de">Französisch-Guayana</option>
+			<option value="French Polynesia" item="83" lang="de">Französisch-Polynesien</option>
+			<option value="French Southern" item="84" lang="de">Französisch Süd</option>
+			<option value="Gabon" item="85" lang="de">Gabon</option>
+			<option value="Gambia, The" item="86" lang="de">Gambia</option>
+			<option value="Gaza Strip" item="87" lang="de">Gazastreifen</option>
+			<option value="Georgia" item="88" lang="de">Georgia</option>
+			<option value="Germany" item="89" lang="de">Deutschland</option>
+			<option value="Ghana" item="90" lang="de">Ghana</option>
+			<option value="Gibraltar" item="91" lang="de">Gibraltar</option>
+			<option value="Glorioso I." item="92" lang="de">Glorioso I.</option>
+			<option value="Greece" item="93" lang="de">Griechenland</option>
+			<option value="Greenland" item="94" lang="de">Grönland</option>
+			<option value="Grenada" item="95" lang="de">Grenada</option>
+			<option value="Guadeloupe" item="96" lang="de">Guadeloupe</option>
+			<option value="Guam" item="97" lang="de">Guam</option>
+			<option value="Guatemala" item="98" lang="de">Guatemala</option>
+			<option value="Guernsey" item="99" lang="de">Guernsey</option>
+			<option value="Guinea" item="100" lang="de">Guinea</option>
+			<option value="Guinea-Bissau" item="101" lang="de">Guinea-Bissau</option>
+			<option value="Guyana" item="102" lang="de">Guyana</option>
+			<option value="Haiti" item="103" lang="de">Haiti</option>
+			<option value="Heard Island" item="104" lang="de">Heard</option>
+			<option value="Holy See (Vatican City)" item="105" lang="de">Heiliger Stuhl (Vatikanstadt)</option>
+			<option value="Honduras" item="106" lang="de">Honduras</option>
+			<option value="Hong Kong" item="107" lang="de">Hong Kong</option>
+			<option value="Hungary" item="108" lang="de">Ungarn</option>
+			<option value="Iceland" item="109" lang="de">Island</option>
+			<option value="India" item="110" lang="de">India</option>
+			<option value="Indonesia" item="111" lang="de">Indonesien</option>
+			<option value="Iran" item="112" lang="de">Iran</option>
+			<option value="Iraq" item="113" lang="de">Irak</option>
+			<option value="Ireland" item="114" lang="de">Irland</option>
+			<option value="Isle of Man" item="115" lang="de">Isle of Man</option>
+			<option value="Israel" item="116" lang="de">Israel</option>
+			<option value="Italy" item="117" lang="de">Italien</option>
+			<option value="Jamaica" item="118" lang="de">Jamaika</option>
+			<option value="Jan Mayen" item="119" lang="de">Jan Mayen</option>
+			<option value="Japan" item="120" lang="de">Japan</option>
+			<option value="Jersey" item="121" lang="de">Jersey</option>
+			<option value="Jordan" item="122" lang="de">Jordan</option>
+			<option value="Juan de Nova I." item="123" lang="de">Juan de Nova I.</option>
+			<option value="Kazakhstan" item="124" lang="de">Kasachstan</option>
+			<option value="Kenya" item="125" lang="de">Kenia</option>
+			<option value="Kiribati" item="126" lang="de">Kiribati</option>
+			<option value="Korea, North" item="127" lang="de">Nordkorea</option>
+			<option value="Korea, South" item="128" lang="de">Südkorea</option>
+			<option value="Kuwait" item="129" lang="de">Kuwait</option>
+			<option value="Kyrgyzstan" item="130" lang="de">Kirgisien</option>
+			<option value="Laos" item="131" lang="de">Laos</option>
+			<option value="Latvia" item="132" lang="de">Lettland</option>
+			<option value="Lebanon" item="133" lang="de">Lebanon</option>
+			<option value="Lesotho" item="134" lang="de">Lesotho</option>
+			<option value="Liberia" item="135" lang="de">Liberia</option>
+			<option value="Libya" item="136" lang="de">Libyen</option>
+			<option value="Liechtenstein" item="137" lang="de">Liechtenstein</option>
+			<option value="Lithuania" item="138" lang="de">Litauen</option>
+			<option value="Luxembourg" item="139" lang="de">Luxemburg</option>
+			<option value="Macau" item="140" lang="de">Macau</option>
+			<option value="Macedonia" item="141" lang="de">Mazedonien</option>
+			<option value="Madagascar" item="142" lang="de">Madagaskar</option>
+			<option value="Malawi" item="143" lang="de">Malawi</option>
+			<option value="Malaysia" item="144" lang="de">Malaysia</option>
+			<option value="Maldives" item="145" lang="de">Maldives</option>
+			<option value="Mali" item="146" lang="de">Mali</option>
+			<option value="Malta" item="147" lang="de">Malta</option>
+			<option value="Marshall I." item="148" lang="de">Marshall I.</option>
+			<option value="Martinique" item="149" lang="de">Martinique</option>
+			<option value="Mauritania" item="150" lang="de">Mauretanien</option>
+			<option value="Mauritius" item="151" lang="de">Mauritius</option>
+			<option value="Mayotte" item="152" lang="de">Mayotte</option>
+			<option value="Mexico" item="153" lang="de">Mexico</option>
+			<option value="Micronesia" item="154" lang="de">Mikronesien</option>
+			<option value="Moldova" item="155" lang="de">Moldawien</option>
+			<option value="Monaco" item="156" lang="de">Monaco</option>
+			<option value="Mongolia" item="157" lang="de">Mongolei</option>
+			<option value="Montserrat" item="158" lang="de">Montserrat</option>
+			<option value="Morocco" item="159" lang="de">Marokko</option>
+			<option value="Mozambique" item="160" lang="de">Mosambik</option>
+			<option value="Namibia" item="161" lang="de">Namibia</option>
+			<option value="Nauru" item="162" lang="de">Nauru</option>
+			<option value="Navassa Island" item="163" lang="de">Navassa Insel</option>
+			<option value="Nepal" item="164" lang="de">Nepal</option>
+			<option value="Netherlands" item="165" lang="de">Niederlande</option>
+			<option value="Netherlands Antilles" item="166" lang="de">Niederländische Antillen</option>
+			<option value="New Caledonia" item="167" lang="de">Neukaledonien</option>
+			<option value="New Zealand" item="168" lang="de">Neuseeland</option>
+			<option value="Nicaragua" item="169" lang="de">Nicaragua</option>
+			<option value="Niger" item="170" lang="de">Niger</option>
+			<option value="Nigeria" item="171" lang="de">Nigeria</option>
+			<option value="Niue" item="172" lang="de">Niue</option>
+			<option value="Norfolk Island" item="173" lang="de">Norfolk-Insel</option>
+			<option value="Northern Mariana I." item="174" lang="de">Northern Mariana I.</option>
+			<option value="Norway" item="175" lang="de">Norwegen</option>
+			<option value="Oman" item="176" lang="de">Oman</option>
+			<option value="Pakistan" item="177" lang="de">Pakistan</option>
+			<option value="Palau" item="178" lang="de">Palau</option>
+			<option value="Panama" item="179" lang="de">Panama</option>
+			<option value="Papua New Guinea" item="180" lang="de">Papua-Neuguinea</option>
+			<option value="Paracel I." item="181" lang="de">Paracel I.</option>
+			<option value="Paraguay" item="182" lang="de">Paraguay</option>
+			<option value="Peru" item="183" lang="de">Peru</option>
+			<option value="Philippines" item="184" lang="de">Philippinen</option>
+			<option value="Pitcairn I." item="185" lang="de">Pitcairn I.</option>
+			<option value="Poland" item="186" lang="de">Polen</option>
+			<option value="Portugal" item="187" lang="de">Portugal</option>
+			<option value="Puerto Rico" item="188" lang="de">Puerto Rico</option>
+			<option value="Qatar" item="189" lang="de">Qatar</option>
+			<option value="Reunion" item="190" lang="de">Reunion</option>
+			<option value="Romania" item="191" lang="de">Rumänien</option>
+			<option value="Russia" item="192" lang="de">Russland</option>
+			<option value="Rwanda" item="193" lang="de">Ruanda</option>
+			<option value="Saint Helena" item="194" lang="de">St. Helena</option>
+			<option value="Saint Kitts and Nevis" item="195" lang="de">St. Kitts und Nevis</option>
+			<option value="Saint Lucia" item="196" lang="de">Santa Lucia</option>
+			<option value="Saint Pierre" item="197" lang="de">Saint-Pierre</option>
+			<option value="Saint Vincent" item="198" lang="de">St. Vincent</option>
+			<option value="Samoa" item="199" lang="de">Samoa</option>
+			<option value="San Marino" item="200" lang="de">San Marino</option>
+			<option value="Sao Tome and Principe" item="201" lang="de">Sao Tome und Principe</option>
+			<option value="Saudi Arabia" item="202" lang="de">Saudi-Arabien</option>
+			<option value="Senegal" item="203" lang="de">Senegal</option>
+			<option value="Serbia and Montenegro" item="204" lang="de">Serbien und Montenegro</option>
+			<option value="Seychelles" item="205" lang="de">Seychellen</option>
+			<option value="Sierra Leone" item="206" lang="de">Sierra Leone</option>
+			<option value="Singapore" item="207" lang="de">Singapur</option>
+			<option value="Slovakia" item="208" lang="de">Slowakei</option>
+			<option value="Slovenia" item="209" lang="de">Slowenien</option>
+			<option value="Solomon I." item="210" lang="de">Solomon I.</option>
+			<option value="Somalia" item="211" lang="de">Somalia</option>
+			<option value="South Africa" item="212" lang="de">Südafrika</option>
+			<option value="South Georgia" item="213" lang="de">South Georgia</option>
+			<option value="Spain" item="214" lang="de">Spain</option>
+			<option value="Spratly I." item="215" lang="de">Spratly I.</option>
+			<option value="Sri Lanka" item="216" lang="de">Sri Lanka</option>
+			<option value="Sudan" item="217" lang="de">Sudan</option>
+			<option value="Suriname" item="218" lang="de">Suriname</option>
+			<option value="Svalbard" item="219" lang="de">Svalbard</option>
+			<option value="Swaziland" item="220" lang="de">Swaziland</option>
+			<option value="Sweden" item="221" lang="de">Schweden</option>
+			<option value="Switzerland" item="222" lang="de">Schweiz</option>
+			<option value="Syria" item="223" lang="de">Syrien</option>
+			<option value="Taiwan" item="224" lang="de">Taiwan</option>
+			<option value="Tajikistan" item="225" lang="de">Tadschikistan</option>
+			<option value="Tanzania" item="226" lang="de">Tansania</option>
+			<option value="Thailand" item="227" lang="de">Thailand</option>
+			<option value="Timor-Leste" item="228" lang="de">Timor-Leste</option>
+			<option value="Togo" item="229" lang="de">Togo</option>
+			<option value="Tokelau" item="230" lang="de">Tokelau</option>
+			<option value="Tonga" item="231" lang="de">Tonga</option>
+			<option value="Trinidad and Tobago" item="232" lang="de">Trinitemad und Tobago</option>
+			<option value="Tromelin Island" item="233" lang="de">Tromelin</option>
+			<option value="Tunisia" item="234" lang="de">Tunesien</option>
+			<option value="Turkey" item="235" lang="de">Truthahn</option>
+			<option value="Turkmenistan" item="236" lang="de">Turkmenistan</option>
+			<option value="Turks and Caicos I." item="237" lang="de">Turks und Caicos I.</option>
+			<option value="Tuvalu" item="238" lang="de">Tuvalu</option>
+			<option value="Uganda" item="239" lang="de">Uganda</option>
+			<option value="Ukraine" item="240" lang="de">Ukraine</option>
+			<option value="United Arab Emirates" item="241" lang="de">Vereinigte Arabische Emirate</option>
+			<option value="United Kingdom" item="242" lang="de">Vereinigtes Königreich (UK)</option>
+			<option value="United States of America" item="243" lang="de">Vereinigte Staaten von Amerika (USA)</option>
+			<option value="Uruguay" item="244" lang="de">Uruguay</option>
+			<option value="Uzbekistan" item="245" lang="de">Usbekistan</option>
+			<option value="Vanuatu" item="246" lang="de">Vanuatu</option>
+			<option value="Venezuela" item="247" lang="de">Venezuela</option>
+			<option value="Vietnam" item="248" lang="de">Vietnam</option>
+			<option value="Virgin I." item="249" lang="de">Virgin I.</option>
+			<option value="Wake Island" item="250" lang="de">Wake Island</option>
+			<option value="Wallis and Futuna" item="251" lang="de">Wallis und Futuna</option>
+			<option value="West Bank" item="252" lang="de">Westbank</option>
+			<option value="Western Sahara" item="253" lang="de">Westsahara</option>
+			<option value="Yemen" item="254" lang="de">Jemen</option>
+			<option value="Zambia" item="255" lang="de">Sambia</option>
+			<option value="Zimbabwe" item="256" lang="de">Zimbabwe</option>
+		</dropdown>
+
+	</demographics>
+ </sites>

@@ -1,0 +1,1070 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Take part in our survey about social acceptance of mobile devices">
+		<meta name="keywords" content="Survey, social acceptance, mobile devices">
+		<meta name="author" content="Valentin Schwind">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="image_src" type="image/jpeg" href="http://scm4.uvrg.org/img/logo.jpg" />
+		<meta property="og:image" content="http://scm4.uvrg.org/img/logo.jpg">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<meta property="og:description" content="Take part in our survey about social acceptability of mobile devices">
+		<meta property="og:url" content="http://scm4.uvrg.org">
+		<meta property="og:site_name" content="Survey about Social Acceptance of Mobile Devices">	
+		<title>Social Acceptance of Mobile Devices</title>	
+	</head>
+	<body class="transparent">
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<!--<script src="js/jquery-cookie-plugin/jquery.cookie.js"></script>-->
+		<script src="js/jquery-validation/jquery.validate.js"></script>	 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/bowser@2.4.0/es5.js"></script>
+		<script src="js/seedrandom.min.js"></script>
+		<style>body { visibility: hidden; } </style>
+		<div id="mainFrame" class="vertical-center">
+			<div id="startPage" class="whiteBox container rounded">
+				<div class="row">
+					<div class="col mt-4 mb-2">
+						<a href="https://ur.de"><img src="img/logo.png" class="float-right" height="50px" alt="Uni Logo"></a>
+						<a href="https://frankfurt-university.de"><img src="img/frauaslogo.png" class="float-right  mr-3" height="50px" alt="Fra-UAS Logo"></a>
+						<!--<a href="https://interactionlab.io"><img src="img/iologo.png" class="float-right  mr-3" height="50px" alt="Interaction Lab Logo"></a>-->
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col ">
+						<h1 id="introTitle"></h1>
+					</div>
+				</div>
+				<div class="row mt-1 ">
+					<div class="col">
+						<h2 id="introSubTitle" class="display-6 introSubTitle"></h2>
+					</div>
+				</div>
+				<hr />
+				<div class="row mt-3 ">
+					<div class="col">
+						<p id="introText"></p>
+					</div>
+				</div>
+				<hr />
+				<div class="row mt-4 mb-4">
+					<div class="col" >
+						<input id="btnStartSurvey" class="btn btn-primary btn-md float-right" type="button" value=""></input>
+					</div>
+				</div>
+			</div>
+			
+			<div id="demographicsPage" class="whiteBox container rounded">
+				<div class="row">
+					<div class="col mt-4 mb-2 ">
+						<a href="https://ur.de"><img src="img/logo.png" class="float-right" height="50px" alt="Uni Logo"></a>
+						<a href="https://frankfurt-university.de"><img src="img/frauaslogo.png" class="float-right  mr-3" height="50px" alt="Fra-UAS Logo"></a>
+					</div>
+				</div>
+				<div id="demographicsContainer"></div>
+			</div>
+			
+			<div id="instructionPage" class="whiteBox container rounded">
+				<div class="row">
+					<div class="col mt-4 mb-2">
+						<a href="https://ur.de"><img src="img/logo.png" class="float-right" height="50px" alt="Uni Logo"></a>
+						<a href="https://frankfurt-university.de"><img src="img/frauaslogo.png" class="float-right  mr-3" height="50px" alt="Fra-UAS Logo"></a>
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col ">
+						<h1 id="instructionTitle"></h1>
+					</div>
+				</div>
+				<div class="row mt-1 ">
+					<div class="col">
+						<h2 id="instructionSubTitle" class="display-6 introSubTitle"></h2>
+					</div>
+				</div>
+				<hr />
+				<div class="row mt-3 mb-4">
+					<div class="col">
+						<p id="instructionsText"></p>
+					</div>
+				</div>
+				<hr />
+				<div class="row mt-4 mb-4">
+					<div class="col" >
+						<input id="btnPrevSurvey" class="btn btn-secondary btn-md float-left" type="button" value=""></input>
+						<input id="btnLoadConditions" class="btn btn-primary btn-md float-right" type="submit" value=""></input>
+					</div>
+				</div>
+			</div>
+			
+			<div id="trialPage" class="whiteBox container rounded">
+				<div id="stimuliContainer" ></div>
+				<div id="questionContainer" ></div>
+			</div>
+		
+			<div id="finalPage" class="whiteBox container rounded">
+				<div class="row">
+					<div class="col mt-4 mb-2">
+						<a href="https://ur.de"><img src="img/logo.png" class="float-right" height="50px" alt="Uni Logo"></a>
+						<a href="https://frankfurt-university.de"><img src="img/frauaslogo.png" class="float-right  mr-3" height="50px" alt="Fra-UAS Logo"></a>
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col ">
+						<h1 id="finalTitle"></h1>
+					</div>
+				</div>
+				<div class="row mt-1 ">
+					<div class="col">
+						<h2 id="finalSubTitle" class="display-6 introSubTitle"></h2>
+					</div>
+				</div>
+				<hr />
+				<div class="row mt-2 ">
+					<div class="col">
+						<p id="finalText"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<script>	
+			var debug = false;
+			var logging = false;
+			var autofill = false;
+			if(logging) console.log("Debug: " + debug);
+			var language = (window.navigator.language).split("-")[0];
+			
+			if(language != "de" ) language = "en";
+				
+			var xml;
+			
+			var demographics = new Array();
+			var userid = 1;
+			var withinGroup = "";
+			var method = gup( 'method' );    
+			var site = 0;    
+			if(gup( 'site' )) site = gup( 'site' );
+			
+			if(logging) console.log("Method: " + method);
+			if(logging) console.log("Site: " + site);
+			
+			// Force UserID: e.g. https://scm6.uvrg.org?userid=3
+			if(debug){ 
+				if(gup( 'userid' )){
+					userid = gup( 'userid' );
+					if(logging) console.log("Debug (custom) User ID: " + userid);
+				}else{
+					if(logging) console.log("Debug User ID: " + userid);
+				}
+			}else{
+				if(logging) console.log("No Debug User ID: " + userid);
+			}
+			
+			var startTimeStamp;
+			var conditionDuration;
+			var totalPages = 0;
+			var currentPage = 0;
+			var finished = "false";
+			
+			// 0 == Start
+			// 1 == Demographics
+			// 2 == Instructions
+			// 3 == Questionnaires
+			// 4 == Compensation
+			
+			currentSite = site;
+			 
+
+			conditionPlan = new Array();
+			withinGroups = new Array();
+		
+			$(document).ready(function() {
+				$.ajax({async: true, crossDomain: false, cache: false, type: "GET", url: "text.xml", dataType: "xml",contentType:"application/x-javascript; charset:ISO-8859-1", success: function(_xml) {	
+					xml = _xml;
+					fillStaticContent();	
+					makeDemographics();
+					switchToSite(currentSite);
+					
+					jQuery("body").css("visibility", "visible");
+					
+					$( "#btnReset" ).click(function() {
+						location.reload();
+					});
+
+					$("#btnBack").click(function(){
+						currentSite--;
+						switchToSite(currentSite);
+					});
+					
+					$("#btnStartSurvey").click(function(){
+						currentSite = 1;
+						switchToSite(currentSite);
+						return false;
+					});
+					
+					$("#btnPrevSurvey").click(function(){
+						currentSite = 1;
+						switchToSite(currentSite);
+						return false;
+					});
+					
+					$("#btnLoadConditions").click(function(){
+						currentSite = 3;
+						switchToSite(currentSite);
+						return false;
+					});
+				}});
+				
+			});
+			
+			
+			function makeDemographics() {
+				
+				var demographicsString = "";
+					
+				demographicsString += '<form id="demographicsForm" class="form-horizontal" action="javascript:;"  >'
+				demographicsString += "<h1 class='mt-3'>"+$(xml).find("demographics").find('demographics-title[lang="' + language + '"]').html()+"</h1>"
+				demographicsString += "<p>"+$(xml).find("demographics").find('demographics-description[lang="' + language + '"]').html()+"</p><hr />"
+				
+				var numberOfdemographics = parseInt($(xml).find('demographics').attr("items"));
+				
+				for(var i = 1; i <= numberOfdemographics; i++){
+					var demographicItemName = $(xml).find('demographics').find("item[id='" +  i + "']").attr("name");
+					var demographicItemType = $(xml).find('demographics').find("item[id='" +  i + "']").attr("type");
+					var demographicItemMin = $(xml).find('demographics').find("item[id='" +  i + "']").attr("min");
+					var demographicItemMax = $(xml).find('demographics').find("item[id='" +  i + "']").attr("max");
+					var demographicstep = $(xml).find('demographics').find("item[id='" +  i + "']").attr("step");
+					var demographicNodeRef = $(xml).find('demographics').find("item[id='" +  i + "']").attr("noderef");
+					var demographicRequired = (($(xml).find('demographics').find("item[id='" +  i + "']").attr("required") === 'true') == true ? "required" : '');
+					var demographicLabel = $(xml).find('demographics').find("item[id='" +  i + "']").find("item-text[lang='" + language + "']").html();
+					
+					demographics.push(({demographicItemName: demographicItemName, demographicItemType: demographicItemType, demographicNodeRef: demographicNodeRef}));
+					
+					demographicsString += '<div class="row mt-3">'
+					demographicsString += '<div class="col"><span id="'+demographicItemName+'-label">'+demographicLabel+'</span></div>';
+					
+					if(demographicItemType == "dropdown"){
+						demographicsString += '<div class="col"><select id='+demographicItemName+' class="form-control" name='+demographicItemName+' '+demographicRequired+'></select></div>';
+					}else{
+						demographicsString += '<div class="col"><input class="form-control" type="'+demographicItemType+'" min="'+demographicItemMin+'" max="'+demographicItemMax+'" step="'+demographicstep+'" name="'+demographicItemName+'" '+demographicRequired+'></input></div>';
+					}
+					demographicsString += '<div class="relative"><label for="'+demographicItemName+'" class="error errorStar"></label></div></div>'
+				}
+				
+				demographicsString += '<hr /><div class="row mt-4 mb-4"><div class="col">'
+				
+				var btnTextPrev = $(xml).find('settings').find("btnPrev[lang='" + language + "']").html();
+				var btnTextNext = $(xml).find('settings').find("btnNext[lang='" + language + "']").html();
+				
+				demographicsString += '<input id="btnBackToStart" class="btnPrev btn btn-secondary btn-md float-left" type="button" value="'+btnTextPrev+'"></input>'
+				demographicsString += '<input id="btnStartInstructions" class="btn btn-primary btn-md float-right" type="submit" value="'+btnTextNext+'"></input>'
+					
+				demographicsString += '</div></div></form>'
+				
+				$("#demographicsContainer").html(demographicsString);
+				
+				for(var i = 0; i < demographics.length; i++) {
+					if(demographics[i].demographicItemType == "dropdown"){
+						var dropdownItemNumber = parseInt($(xml).find('demographics').find(demographics[i].demographicItemType+"[id='" + demographics[i].demographicNodeRef + "']").attr("items"));
+						for(var j = 0; j < dropdownItemNumber; j++){
+							var dropdownOptions = $(xml).find('demographics').find(demographics[i].demographicItemType+"[id='" + demographics[i].demographicNodeRef + "']").find("option[lang='" + language + "']");
+							$("select[name='"+demographics[i].demographicItemName+"']").append(new Option(dropdownOptions[j].innerHTML, dropdownOptions[j].getAttribute("value")));
+						}
+						if(debug && autofill) {
+							$("select[name='"+demographics[i].demographicItemName+"']").val(dropdownOptions[parseInt(Math.random()*j)].getAttribute("value"));    
+						}
+					}
+					
+					if(demographics[i].demographicItemType == "number"){
+						var placeholderText = $(xml).find('demographics').find(demographics[i].demographicItemType+"[id='" + demographics[i].demographicNodeRef + "']").find("placeholder-text[lang='" + language + "']").html();
+						$("input[name='"+demographics[i].demographicItemName+"']").attr("placeholder", placeholderText);
+						if(debug) {
+							$("input[name='"+demographics[i].demographicItemName+"']").val(parseInt(Math.random()*100));    
+						}
+					}
+				}
+				$.validator.messages.required = '';
+				
+				$("#demographicsForm").validate({
+					submitHandler: function() {  submitDemographics(this); }
+				});
+				
+				$("#btnBackToStart").click(function(){
+					currentSite--;
+					switchToSite(currentSite);
+				});
+				
+			}
+			
+			function submitDemographics() {
+				//event.preventDefault();
+							
+				var demographicsQuery = "";
+				
+				for(var i = 0; i < demographics.length; i++){
+				
+					if(demographics[i].demographicItemType == "dropdown"){
+						demographicsQuery += demographics[i].demographicItemName + ":"
+						demographicsQuery += $("select[name='"+demographics[i].demographicItemName+"'] option:selected").val() + ";";
+					}
+					
+					if(demographics[i].demographicItemType == "number"){
+						demographicsQuery += demographics[i].demographicItemName + ":"
+						demographicsQuery += $("input[name='"+demographics[i].demographicItemName+"']").val() + ";";
+					}
+				}
+				demographicsQuery = demographicsQuery.substring(0, demographicsQuery.length - 1);
+				if(logging) console.log(demographicsQuery);
+				
+				if(gup( 'userid' )=="" || gup( 'userid' )==null || gup( 'userid' )==undefined )
+					userid = getUserID();
+				
+				if(logging) console.log("New User ID: " + userid);
+				
+				var dataQuery = 
+					"method=" + method + "&" + 
+					"userID=" + userid + "&" + 
+					"timeStamp=" + new Date().getTime().toString() + "&" + 
+					"demographics=" + demographicsQuery + "&" + 
+					"language=" +  language+ "&" + 
+					"syslanguage=" +  navigator.language + "&" + 
+					"browser=" + getBrowser() + "&" + 
+					"screenWidth=" + window.innerWidth  + "&" + 
+					"screenHeight=" + window.innerHeight;
+				
+				if(logging) console.log(dataQuery);
+				
+				$.ajax({ async: true, crossDomain: false, cache: true, type: "POST", url: "php/saveUser.php", data: dataQuery, success: function(response) {	
+					if(logging) console.log(response);
+					if(response=="success"){
+						currentSite = 2;
+						switchToSite(currentSite);
+					}
+				},error: function(jqXHR, textStatus, errorThrown) {
+					if(logging) console.log(textStatus, errorThrown);
+					submitDemographics();
+				}});
+				
+			}
+			
+			function makeConditions() {
+					
+				var conditions = new Array();
+				var withinGroups = new Array();
+				
+				startTimeStamp = new Date().getTime();
+				startSurveyStamp = new Date().getTime();
+				
+				$(xml).find("condition").each(function(){
+					if($(this).attr("withinGroup") != null)
+						withinGroups.push($(this).attr("withinGroup"));
+				});
+				
+				
+				withinGroups = withinGroups.filter((v, i, a) => a.indexOf(v) === i); 
+				if(logging) console.log("Distinct Groups: " + withinGroups)
+
+				withinGroup = withinGroups[userid%withinGroups.length]
+				if(logging) console.log("userid: " + userid);
+				if(logging) console.log("withinGroups.length: " + withinGroups.length);
+				if(logging) console.log("Participant is in group: " + withinGroup);
+				
+				$(xml).find('condition[withinGroup="'+withinGroup+'"]').each(function(){
+					conditions.push(jQuery(this).attr("id"));
+				});
+			
+				
+				var randomize = $(xml).find("conditions").attr('randomize');
+				
+				if(randomize == "latinSquare")
+					conditions = latinSquare(conditions, userid);
+					
+				if(randomize == "shuffle")
+					conditions = shuffle(conditions, userid);
+					 
+				if(logging) console.log("Participants' Conditions: " + conditions)
+
+				var finalCondition = $(xml).find("conditions").attr('finalCondition');
+				if(logging) console.log("Final Condition: " + finalCondition);
+				
+				if (finalCondition>0){
+					$(xml).find('condition[id="'+finalCondition+'"]').each(function(){
+						conditions.push(jQuery(this).attr("id"));
+					});
+				}
+				
+				
+				var allConditionString = "";
+				var questionnaires = new Array();
+				
+				for(var i = 0; i < conditions.length; i++){
+					allConditionString += "<div id='stimuliContainer-"+conditions[i]+"'><h1 class='mt-3'>"+$(xml).find("conditions").find('condition[id="'+(conditions[i])+'"]').find('condition-title[lang="' + language + '"]').html()+"</h1>";
+					allConditionString += "<p>"+$(xml).find("conditions").find('condition[id="'+(conditions[i])+'"]').find('condition-description[lang="' + language + '"]').html()+"</p>"
+										
+					var questionFromStimuli = $(xml).find("conditions").find('condition[id="'+(conditions[i])+'"]').find('condition-questions[lang="' + language + '"]').html()
+					var randomQuestionnaires = ($(xml).find("conditions").attr("randomQuestionnaires")==="true");
+					
+					
+					$(xml).find("conditions").find('condition[id="'+(conditions[i])+'"]').find('condition-media').each(function( index , item) {						
+						if($(item).attr("type") == "video")
+							allConditionString += "<iframe id='video' width='100%' height='500px' class='mb-4' src='"+$(item).html()+"' frameborder='0' allowfullscreen></iframe>"
+						
+						if($(item).attr("type") == "image")
+							allConditionString += "<img id='image' width='"+$(item).attr("width")+"' height='"+$(item).attr("height")+"' class='mb-2 mr-2' src='"+$(item).html()+"' frameborder='0' allowfullscreen></img>"
+						
+					}); 
+					
+					var btnShowQuestionnaireText = $(xml).find('settings').find("btnShowQuestionnaire[lang='" + language + "']").html();
+					allConditionString += '<div id="showQuestionnaireBar-'+conditions[i]+'" class="row ml-0 mr-0 mt-0 mb-4"><input id="btnShowQuestionnaire-'+conditions[i]+'" class="btn btn-primary btn-md float-right" type="button" value="'+btnShowQuestionnaireText+'"></input></div>'
+					
+					
+					allConditionString += "</div>";
+					
+					questionnaires[i] = new Array();
+					
+					$(xml).find("conditions").find('condition[id="'+(conditions[i])+'"]').find('condition-questionnaire').each(function( index , item) {
+						questionnaires[i].push( $(item).html() );
+					});             
+					
+					if(randomQuestionnaires)
+						shuffle(questionnaires[i], userid);
+					
+					var questionnaireString = "";
+					
+					for(var j = 0; j < questionnaires[i].length; j++){
+						questionnaireString += "<form class='questionnaireContainer' id='Questionnaire-"+conditions[i]+"-"+j+"' name='Questionnaire-"+j+"-"+conditions[i]+"' action='javascript:;''><fieldset>"
+						//questionnaireString += "<h3 class=>"+$(xml).find('questionnaire[id="'+questionnaires[i]+'"]').attr("name")+"</h3>"
+						
+						var takeQuestionFromStimuli = ($(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').attr("takeQuestionFromStimuli")==="true");
+						
+						if(!takeQuestionFromStimuli)
+							questionnaireString += "<h5>"+$(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("description[lang='" + language + "']").html() +"</h5><p/>"
+						else
+							questionnaireString += "<h5>"+questionFromStimuli+"</h5><p/>"
+					
+						
+						var numberOfItems = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').attr("items");
+						var typeOfQuestionnaire = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').attr("type");
+						var randomize = ($(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').attr("randomItems")=="true");
+						
+						var itemIndex = new Array();
+						
+						for (var s = 0; s < numberOfItems; s++) itemIndex[s] = s + 1;
+						
+						if(randomize) shuffle(itemIndex, userid + j + i);
+						
+						if(logging) console.log("Randomize items: " + randomize);
+						
+						if(typeOfQuestionnaire=="custom"){
+							// generate likert heading
+							for(var p = 0; p < itemIndex.length; p++){
+								
+								var itemType = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("item[id='" +  itemIndex[p] + "'][lang='" + language + "']").attr("type");
+								
+								// custom likert item
+								if(itemType == "likert"){
+									questionnaireString += '<div class="row ml-1 mr-1 mt-0 mb-1"><div class="col fixWidth killPadding font-weight-bold"></div>'
+									var pointScale = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("item[id='" + itemIndex[p] + "'][lang='" + language + "']").attr("pointScale");
+									for(var k = 1; k <= pointScale; k++){
+										var scaleLabel = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("scale[id='" + k + "'][lang='" + language + "']").html();
+										questionnaireString += '<div class="col killPadding text-center smalltext font-weight-bold"">'+scaleLabel+'</div>'
+									}
+									questionnaireString += '</div><hr /><div class="row ml-1 mr-1 mt-0 mb-0">'
+									var questionText = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("item[id='" + itemIndex[p] + "'][lang='" + language + "']").html();
+									questionnaireString += '<div class="col fixWidth killPadding font-weight-normal" id="'+questionnaires[i][j] + "-" + itemIndex[p] + '">'+questionText+'</div>'
+									for(var l = 1; l <= pointScale; l++){
+										var checked = "";
+										if(debug && autofill && Math.random() < 0.66) checked = "checked";
+										var itemValue = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("scale[id='" + l + "'][lang='" + language + "']").attr("value");
+										questionnaireString += '<div class="col killPadding text-center"><input type="radio" name="'+questionnaires[i][j] + "-" + itemIndex[p] + '" value="'+itemValue+'" id="'+questionnaires[i][j] + "_" + itemIndex[p] + '" value="'+itemValue+'" class="css-radiobox" required '+checked+'/><label for="'+questionnaires[i][j] + "_" + itemIndex[p] + '" class="css-radiolabel"></label></div>'
+									}
+									questionnaireString += '<div class="relative"><label for="'+questionnaires[i][j]+"-"+itemIndex[p]+'" class="error errorStar"></label></div></div><hr />'
+								} 
+								
+								// custom feedback item
+								if(itemType == "qualitative"){
+									questionnaireString += '<div class="row ml-1 mr-1 mt-0 mb-1"><div class="col fixWidth killPadding font-weight-bold"></div></div>'
+									var questionText = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("item[id='" + itemIndex[p] + "'][lang='" + language + "']").html();
+									var textareaRows = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("item[id='" + itemIndex[p] + "'][lang='" + language + "']").attr("rows");
+									questionnaireString += '<div class="row ml-1 mr-1 mt-0 mb-1"><div class="font-weight-bold"">'+questionText+'</div></div>'
+									questionnaireString += '<div class="row ml-1 mr-1 mt-0 mb-1"><textarea id="'+questionnaires[i][j] + "-" + itemIndex[p] + '" rows="' + textareaRows + '" maxlength="10000"></textarea></div>'
+									questionnaireString += '<div class="relative"><label for="'+questionnaires[i][j]+"-"+itemIndex[p]+'" class="error errorStar"></label></div><hr />'
+								
+								}
+							}
+						}
+						
+						if(typeOfQuestionnaire=="likert"){
+							var pointScale = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').attr("pointScale");
+							// generate likert heading
+							questionnaireString += '<div class="row ml-1 mr-1 mt-0 mb-1">'
+							questionnaireString += '<div class="col fixWidth killPadding font-weight-bold"></div>'
+							for(var k = 1; k <= pointScale; k++){
+								var scaleLabel = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("scale[id='" + k+ "'][lang='" + language + "']").html();
+								questionnaireString += '<div class="col killPadding text-center smalltext font-weight-bold"">'+scaleLabel+'</div>'
+							}
+							questionnaireString += '</div><hr />'
+							
+							// generate likert items
+							for(var k = 0; k < itemIndex.length; k++){
+								questionnaireString += '<div class="row ml-1 mr-1 mt-0 mb-0">'
+								var questionText = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("item[id='" + itemIndex[k] + "'][lang='" + language + "']").html();
+								questionnaireString += '<div class="col fixWidth killPadding font-weight-normal" id="'+questionnaires[i][j] + "-" + itemIndex[k] + '">'+questionText+'</div>'
+								for(var l = 1; l <= pointScale; l++){
+									var checked = "";
+									if(debug && autofill && Math.random() < 0.66) checked = "checked";
+									var itemValue = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("scale[id='" + l + "'][lang='" + language + "']").attr("value");
+									questionnaireString += '<div class="col killPadding text-center"><input type="radio" name="'+questionnaires[i][j] + "-" + itemIndex[k] + '" value="'+itemValue+'" id="'+questionnaires[i][j] + "_" + itemIndex[k] + '" value="'+itemValue+'" class="css-radiobox" required '+checked+'/><label for="'+questionnaires[i][j] + "_" + itemIndex[k] + '" class="css-radiolabel"></label></div>'
+								}
+								questionnaireString += '<div class="relative"><label for="'+questionnaires[i][j]+"-"+itemIndex[k]+'" class="error errorStar"></label></div></div><hr />'
+							}
+						}
+						
+						if(typeOfQuestionnaire=="semantic"){
+							var pointScale = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').attr("pointScale");
+							// generate semantic differential heading
+							questionnaireString += '<div class="row ml-1 mr-1 mt-0 mb-1"><div class="col fixWidth2 font-weight-bold"></div>'
+							for(var k = 1; k <= pointScale; k++){
+								questionnaireString += '<div class="col killPadding text-center smalltext font-weight-bold"">'+k+'</div>'
+							}
+							questionnaireString += '<div class="col fixWidth2 font-weight-bold"></div></div><hr />'
+							
+							for(var k = 0; k < itemIndex.length; k++){
+								var itemLeft = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("item[id='" + itemIndex[k] + "'][lang='" + language + "'][position='left']").html();
+								var itemRight = $(xml).find('questionnaire[id="'+questionnaires[i][j]+'"]').find("item[id='" + itemIndex[k] + "'][lang='" + language + "'][position='right']").html();
+								
+								questionnaireString += '<div class="row ml-1 mr-1 mt-0 mb-1"><div class="col fixWidth2 text-right font-weight-normal">'+itemLeft+'</div>'
+								
+								for(var l = 1; l <= pointScale; l++){
+									var checked = "";
+									if(debug && autofill && Math.random() < 0.66) checked = "checked";
+									questionnaireString += '<div class="col killPadding text-center"><input type="radio" name="'+questionnaires[i][j] + "-" + itemIndex[k] + '" value="'+l+'" id="'+questionnaires[i][j] + "_" + itemIndex[k] + '" value="'+l+'" class="css-radiobox" required + '+checked+'/><label for="'+questionnaires[i][j] + "_" + itemIndex[k] + '" class="css-radiolabel"></label></div>'
+								}
+								
+								questionnaireString += '<div class="col fixWidth2 font-weight-normal ">'+itemRight+'</div>'
+								questionnaireString += '<div class="relative"><label for="'+questionnaires[i][j]+"-"+itemIndex[k]+'" class="error errorStar"></label></div></div><hr />'
+							}
+						}
+						
+						var btnTextPrev = $(xml).find('settings').find("btnPrev[lang='" + language + "']").html();
+						var btnTextNext = $(xml).find('settings').find("btnNext[lang='" + language + "']").html();
+						var txtPleaseWait = $(xml).find('settings').find("txtPleaseWait[lang='" + language + "']").html();
+						
+						questionnaireString += '<div class="row mt-4 mb-2">'
+						
+						if(($(xml).find("conditions").attr("showAllQuestions")=="false")){
+							questionnaireString += '<div class="col" id="buttonbar">'		
+							if(i == 0 && j == 0)
+								questionnaireString += '';
+							else
+								questionnaireString += '<input id="btnPrev-'+conditions[i]+"-"+j+'" class="btnPrev btn btn-secondary btn-md float-left" type="button" value="'+btnTextPrev+'"></input>'
+								
+							questionnaireString += '<input id="txtPleaseWait-'+conditions[i]+"-"+j+'" class="btn btn-secondary btn-md float-right" type="button"  value="'+txtPleaseWait+'"></input>'
+							questionnaireString += '<input id="btnNext-'+conditions[i]+"-"+j+'" class="btn btn-primary btn-md float-right" type="submit" value="'+btnTextNext+'"></input></div>'
+						} else {
+							questionnaireString += '<input id="btnNext-'+conditions[i]+"-"+j+'" class="btn btn-primary btn-md float-right" type="submit" value="'+btnTextNext+'" style="display: none;"></input></div>'
+						}
+						
+						questionnaireString +='</fieldset></form>'
+					}
+					if(($(xml).find("conditions").attr("showAllQuestions")=="true")){
+						questionnaireString += '<div class="row" id="buttonbar-'+conditions[i]+'"><div class="col" id="buttonbar">'		
+						questionnaireString += '<input id="btnPrev-'+conditions[i]+'" class="btnPrev btn btn-secondary btn-md float-left" type="button" value="'+btnTextPrev+'"></input>'
+							
+						questionnaireString += '<input id="txtPleaseWait-'+conditions[i]+'" class="btn btn-secondary btn-md float-right" type="button"  value="'+txtPleaseWait+'"></input>'
+						questionnaireString += '<input id="btnNext-'+conditions[i]+'" class="btn btn-primary btn-md float-right" type="submit" value="'+btnTextNext+'"></input></div></div>'
+					}	
+					allConditionString += '<div id="questionContainer-'+conditions[i]+'">' + questionnaireString + '</div>' ;
+					//allConditionString += questionnaireString;
+				}
+				allConditionString += '<div id="progressBarBG" class="mt-4 mb-2"><div id="progressBar"></div></div>'
+				$("#trialPage").html(allConditionString); 
+				
+				
+				for(var i = 0; i < conditions.length; i++){
+					if(($(xml).find("conditions").attr("showAllQuestions")=="false"))
+						$("#btnShowQuestionnaire-" +conditions[i]).show();
+					
+					$("#btnShowQuestionnaire-" +conditions[i] ).click(function(){
+						$("#btnShowQuestionnaire-" +conditions[i]).hide();
+						$("#questionContainer-" +conditions[i]).show();
+						startTimeStamp = new Date().getTime();
+						conditionDuration = new Date().getTime() - startSurveyStamp;
+					});
+					
+					if(($(xml).find("conditions").attr("hideShowButton")=="true"))
+						$("#btnShowQuestionnaire-" +conditions[i]).click();
+						
+					$.validator.messages.required = '*';
+					
+					
+					for(var j = 0; j < questionnaires[i].length; j++){
+						conditionPlan.push({"questionnaire":j, "questionnaireLength": questionnaires[i].length, "condition": parseInt(conditions[i]), "sequence": i, "duration": 0}); 
+					}
+					
+					if(($(xml).find("conditions").attr("showAllQuestions")=="true")){
+						$("#buttonbar-"+conditions[i]).hide();
+						for(var j = 0; j < conditionPlan[i].questionnaireLength; j++){	
+							$("#btnNext-"+j+"-"+conditionPlan[i].condition).hide();
+						}
+						$("#btnNext-"+conditions[i]).click(function(){	
+							var validQuestionnaires = 0;
+							
+							for(var j = conditionPlan[currentPage].questionnaireLength; j >= 0; j--){	
+								$("#btnNext-"+j+"-"+conditionPlan[currentPage].condition).click();
+							} 
+							$("form[id^='Questionnaire-"+conditionPlan[currentPage].condition+"-']").each(function(){  
+								if($(this).valid())
+									validQuestionnaires++;
+							});
+							console.log("currentPage " + currentPage);
+							console.log("condition " + conditionPlan[currentPage].condition);
+							console.log("validQuestionnaires " + validQuestionnaires);
+							console.log("length " + conditionPlan[currentPage].questionnaireLength);
+							
+							if(conditionPlan[currentPage].questionnaireLength == validQuestionnaires) nextButton();
+						});
+						
+						$("#btnPrev-"+conditions[i]).click(function(){
+							currentPage-=conditionPlan[currentPage].questionnaireLength;
+							startTimeStamp = new Date().getTime();
+							if(currentPage < 0){
+								currentPage = 0;
+								switchToSite(2);
+								return;
+							}
+							conditionPlan[currentPage].duration = 0;
+							showCondition();
+							
+						});
+					} else {
+					
+						for(var j = 0; j < questionnaires[i].length; j++){						
+							$("#txtPleaseWait-"+j+"-"+conditions[i]).hide();
+								
+							$("#Questionnaire-"+conditions[i]+"-"+j).validate({
+								submitHandler: function() { nextButton(this); }
+							});
+							
+							$("#btnPrev-"+conditions[i]+"-"+j).click(function(){
+								currentPage--;
+								if(currentPage < 0){
+									currentPage = 0;
+									switchToSite(2);
+									return;
+								}
+								startTimeStamp = new Date().getTime();
+								conditionPlan[currentPage].duration = 0;
+								showCondition();
+							});
+						}
+					}
+				}
+				//if(logging) console.log("Condition Plan: " + conditionPlan);
+				currentPage = 0;
+				totalPages = conditionPlan.length;
+				showCondition();
+			}
+			
+			function showCondition(){
+				if(currentPage < 0 || currentPage >= conditionPlan.length)
+					return;
+						
+				for(var i = 0; i < conditionPlan.length; i++){
+					$("#stimuliContainer-"+conditionPlan[i].condition).hide();
+					$("#Questionnaire-"+conditionPlan[i].condition+"-"+conditionPlan[i].questionnaire).hide();
+					
+					if(($(xml).find("conditions").attr("showAllQuestions")=="true")){
+						for(var j = 0; j < conditionPlan[currentPage].questionnaireLength; j++){
+							$("#Questionnaire-"+conditionPlan[currentPage].condition+"-"+j).show();
+						}
+						$("#buttonbar-"+conditionPlan[i].condition).hide();
+					}
+					
+				}
+				if(($(xml).find("conditions").attr("showAllQuestions")=="true"))
+					$("#buttonbar-"+conditionPlan[currentPage].condition).show();
+					
+				$("#stimuliContainer-"+conditionPlan[currentPage].condition).show();
+				$("#questionContainer-"+conditionPlan[currentPage].condition).show();
+				$("#Questionnaire-"+conditionPlan[currentPage].condition+"-"+conditionPlan[currentPage].questionnaire).show();	
+				
+				if(($(xml).find("conditions").attr("showAllQuestions")=="true")){ 
+					$("#btnNext-"+conditionPlan[currentPage].condition).show();
+					$("#txtPleaseWait-"+conditionPlan[currentPage].condition).hide();
+				} else {
+					$("#btnNext-"+conditionPlan[currentPage].condition+"-"+conditionPlan[currentPage].questionnaire).show();
+					$("#txtPleaseWait-"+conditionPlan[currentPage].condition+"-"+conditionPlan[currentPage].questionnaire).hide();
+				}
+				
+				if(($(xml).find("conditions").attr("showAllQuestions")=="false"))
+					$('html, body').animate({ scrollTop: $("#stimuliContainer-"+conditionPlan[currentPage].condition).offset().top }, 'fast'); 
+				
+				moveProgressBar((currentPage/(totalPages))*100);
+				
+				if(logging) console.log("Current condition: " + conditionPlan[currentPage].condition);
+			}
+			
+			function nextButton(){
+				conditionPlan[currentPage].duration = new Date().getTime() - startTimeStamp;
+				startTimeStamp = new Date().getTime();
+				
+				
+				if(logging) console.log("Clicking on next...");
+				
+				if(conditionPlan[currentPage].questionnaire + 1 <= conditionPlan[currentPage].questionnaireLength){
+					
+					if(($(xml).find("conditions").attr("showAllQuestions")=="true")){
+						
+						$("#txtPleaseWait-"+conditionPlan[currentPage].condition).show();
+						$("#btnNext-"+conditionPlan[currentPage].condition).hide();
+						$("#btnPrev-"+conditionPlan[currentPage].condition).hide();
+					}else {
+						//currentPage++;
+					}
+					
+					submitQuestionnaire();
+					showCondition();
+					$('html, body').animate({ scrollTop: $("#stimuliContainer-"+conditionPlan[currentPage].condition).offset().top }, 'fast');
+				} else {
+
+					$("#txtPleaseWait-"+conditionPlan[currentPage].questionnaire+"-"+conditionPlan[currentPage].condition).show();
+					$("#btnNext-"+conditionPlan[currentPage].condition+"-"+conditionPlan[currentPage].questionnaire).hide();
+					$("#btnPrev-"+conditionPlan[currentPage].condition+"-"+conditionPlan[currentPage].questionnaire).hide();
+					
+					submitQuestionnaire()
+				}	
+				
+				return false;
+			}
+			
+			function submitQuestionnaire(){ 
+				
+				withinGroup = "all";
+				
+				if ($(xml).find("conditions").find('condition[id="'+(conditionPlan[currentPage].condition)+'"]').attr('withinGroup') != null)
+					withinGroup = $(xml).find("conditions").find('condition[id="'+(conditionPlan[currentPage].condition)+'"]').attr('withinGroup')
+				
+				var dataQuery = 
+					"userID=" + userid + "&" + 
+					"method=" + method + "&" + 
+					"timeStamp=" + new Date().getTime().toString() + "&" + 
+					"duration=" + conditionDuration + "&" +
+					"withinGroup=" + withinGroup + "&" +
+					"conditionID=" + conditionPlan[currentPage].condition + "&" +
+					"conditionName=" + $(xml).find("conditions").find('condition[id="'+(conditionPlan[currentPage].condition)+'"]').attr('name') + "&" +
+					"sequence=" + (currentPage + 1) + "&" +
+					"values=";
+				
+				function n(n){
+					return n >= conditionPlan[currentPage].questionnaireLength ? "" + n: "0" + n;
+				}
+				
+				var items = new Array(); 
+				var durations = new Array(); 
+				
+				for(var i = 0; i < conditionPlan[currentPage].questionnaireLength; i++){
+					var elements = $('#Questionnaire-' + conditionPlan[currentPage].condition + '-' + i).find('input[type="radio"]:checked');
+					for (var j = 0, element; element = elements[j++];) {		
+						items.push(element.id.split("_")[0] + "_" + element.id.split("_")[1] + ":" + element.value.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '') )
+					}
+					//durations.push("Q"+i+"-duration:"+conditionPlan[currentPage - i].duration);
+				}
+				
+				for(var i = 0; i < conditionPlan[currentPage].questionnaireLength; i++){
+					var elements = $('#Questionnaire-' + conditionPlan[currentPage].condition + '-' + i).find('textarea');
+					for (var j = 0, element; element = elements[j++];) {
+						items.push(element.id.split("-")[0] + "_" + element.id.split("-")[1] + ":" + element.value.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '') + "")
+					}
+				}
+				
+				items.sort();
+
+				for (var j = 0; j < items.length; j++) {		
+					dataQuery += items[j] += ";";
+				}
+				
+				for (var j = 0; j < durations.length; j++) {		
+					dataQuery += durations[j] += ";";
+				}
+				
+				dataQuery = dataQuery.substring(0, dataQuery.length - 1);
+				if(logging) console.log(dataQuery);
+				
+				$.ajax({ async: true, crossDomain: false, cache: false, type: "POST", url: "php/saveData.php", data: dataQuery, success: function(response) {	
+					startTimeStamp = new Date().getTime();
+					
+					if(($(xml).find("conditions").attr("showAllQuestions")=="true")){
+						$("#txtPleaseWait-"+conditionPlan[currentPage].condition).hide();
+						$("#btnNext-"+conditionPlan[currentPage].condition).show();
+						$("#btnPrev-"+conditionPlan[currentPage].condition).show();
+						currentPage+=conditionPlan[currentPage].questionnaireLength;
+					}else {
+						$("#txtPleaseWait-"+conditionPlan[currentPage].condition+"-"+conditionPlan[currentPage].questionnaire).hide();
+						$("#btnNext-"+conditionPlan[currentPage].condition+"-"+conditionPlan[currentPage].questionnaire).show();
+						$("#btnPrev-"+conditionPlan[currentPage].condition+"-"+conditionPlan[currentPage].questionnaire).show();
+						currentPage++;
+					}
+
+
+					if(logging) console.log("Current page " + currentPage + " Conditio plan length " + conditionPlan.length);// + " Loading page " + currentPage + "/" + conditionPlan.length-1);
+					if(currentPage==conditionPlan.length)	{
+						currentSite = 4;
+						switchToSite(currentSite);
+						if(logging) console.log("Final page loading... " + response);
+						return false;
+					}else{
+						$('html, body').animate({ scrollTop: 0 }, 'fast');
+						showCondition();
+					}					
+					if(logging) console.log("Results submitted: " + response);
+
+				},error: function(jqXHR, textStatus, errorThrown) {
+					if(logging) console.log(textStatus, errorThrown);
+					submitQuestionnaire();
+				}});
+			}
+			
+			function submitEmail(){
+				var dataQuery = 
+					"email=" + $("input[name='emailText']").val() + "&" + 
+					"name=" + $("input[name='nameText']").val() + "&" + 
+					"method=" + method + "&" + 
+					"mcistudent=" + $("input[name='mcistudent']").is(":checked");
+				
+				$.ajax({ async: true, crossDomain: false, cache: true, type: "POST", url: "php/saveEmail.php", data: dataQuery, success: function(response) {	
+					eMailSent();
+				},error: function(jqXHR, textStatus, errorThrown) {
+					if(logging) console.log(textStatus, errorThrown);
+					submitResults();
+				}});	
+				
+				return false;
+			}
+			
+			function moveProgressBar(_progress) {
+				var elem = document.getElementById("progressBar");   
+				elem.style.width =  _progress+"%"; 
+			}
+			
+			function switchToSite(_siteID) {
+				if(_siteID==0){
+					$( "#startPage" ).show();
+					$( "#demographicsPage" ).hide();
+					$( "#instructionPage" ).hide();
+					$( "#trialPage" ).hide();
+					$( "#finalPage" ).hide();
+				}else if(_siteID==1){
+					$( "#startPage" ).hide();
+					$( "#demographicsPage" ).show();
+					$( "#instructionPage" ).hide();
+					$( "#trialPage" ).hide();
+					$( "#finalPage" ).hide();
+				}else if(_siteID==2){
+					$( "#startPage" ).hide();
+					$( "#demographicsPage" ).hide();
+					$( "#instructionPage" ).show();
+					$( "#trialPage" ).hide();
+					$( "#finalPage" ).hide();
+				} else if(_siteID==3){
+					$( "#startPage" ).hide();
+					$( "#demographicsPage" ).hide();
+					$( "#instructionPage" ).hide();
+					$( "#trialPage" ).show();
+					$( "#finalPage" ).hide();
+					makeConditions();
+				} else {
+					$( "#startPage" ).hide();
+					$( "#demographicsPage" ).hide();
+					$( "#instructionPage" ).hide();
+					$( "#trialPage" ).hide();
+					$( "#finalPage" ).show();
+					participantCompletedWithin(userid, withinGroup);
+					makeFinalPage();
+				}
+				
+				if(finished == true){
+					$("input[name='emailText']").hide();
+					$("#btnSendEMail").hide(); 
+					
+					$("#finalBox").html("<div class='row mb-3'><div class='col'><input id='btnReset' class='btn btn-primary btn-md float-right ml-3' type='button' value='"+$(xml).find('settings').find("btnReset[lang='" + language + "']").html()+"'></input></div></div>");
+					
+					$( "#btnReset" ).click(function() {
+						location.reload();
+					});
+				}
+			}
+			
+			function makeFinalPage(){
+				var finalPageString = "<p><h5 id='finishedSentence'></h5></p>";
+				finalPageString += "<p><span id='codeSentence'>"+$(xml).find('settings').find("codeSentence[lang='" + language + "']").html()+"</span><span>" + generateSurveyCode() + "</span><hr />";
+				finalPageString += "<p><p id='lotterySentence'>"+$(xml).find('settings').find("lotterySentence[lang='" + language + "']").html()+"</p></p>";
+				finalPageString += "<form id='submitEmail' class='mb-3' action='javascript:;' >";
+				finalPageString += "<div class='row mb-3'> <div class='col' >"+$(xml).find('settings').find("nameText[lang='" + language + "']").html()+"</div> <div class='col' id='nameBox'><input class='form-control required' type='text' name='nameText'></input></div></div>";
+				finalPageString += "<div class='row mb-3'> <div class='col' >"+$(xml).find('settings').find("emailText[lang='" + language + "']").html()+"</div> <div class='col' id='emailBox'><input class='form-control required' type='email' name='emailText'></input></div> </div> </div>";
+				finalPageString += "<div class='row mb-3'> <div class='col' id='mciStudentText' >"+$(xml).find('settings').find("mciStudentText[lang='" + language + "']").html()+"</div> <div class='col'> <input type='checkbox' id='mcistudent' name='mcistudent' class='' value=0> </div> </div>";
+				finalPageString += "<div class='row mb-3'> <div class='col' id='lotteryText' >"+$(xml).find('settings').find("lotteryText[lang='" + language + "']").html()+"</div> <div class='col'> <input type='checkbox' id='lotteryText' name='lotteryText' class='required' value=0> </div> </div>";
+				finalPageString += "<div class='row mb-3'> <div class='col'><input id='btnSendEMail' class='btn btn-primary btn-md float-right' type='submit' value='"+$(xml).find('settings').find("btnSendEMail[lang='" + language + "']").html()+"'></input></div>  </div> </form>";
+				finalPageString += "<hr /><p id='studentsSentence'>"+$(xml).find('settings').find("studentsSentence[lang='" + language + "']").html()+"</p><hr />";
+				
+				$("#finalText").html(finalPageString);
+				
+				$("#submitEmail").validate({
+					submitHandler: function() { submitEmail(this); }
+				});
+			}
+			
+			function updateHTML(_id, _value) {
+				var elem = document.getElementById(_id);
+				if(elem != null) document.getElementById(_id).innerHTML = _value;
+				if($( elem ).is( ":button" )) $(elem).prop('value', _value); 
+				if($( elem ).is( ":input" )) $(elem).prop('value', _value); 
+			}
+			
+			function fillStaticContent(){	
+				$.ajax({async: true, crossDomain: false, cache: false, type: "GET", url: "text.xml", dataType: "xml",contentType:"application/x-javascript; charset:ISO-8859-1", success: function(xml) {
+					$(xml).find('settings').children().each(function(){
+						updateHTML((this).nodeName, $(xml).find('settings').find((this).nodeName + '[lang="' + language + '"]').html());
+					});
+					jQuery("body").css("visibility","visible");
+				}});
+			}
+			
+			function generateSurveyCode(){
+			   var jetzt = new Date();
+			   var from = 1000000;
+			   var to =   9999990;
+			   var rnd = Math.floor(Math.random() * (to - from + 1) + from);
+			   if(method == "PRO") return "<a href='https://app.prolific.co/submissions/complete?cc=7A69CA68'>Confirmation Link</a>";
+			   else return "AMT" + rnd + "SSX";
+			
+			}
+			
+			function getUserID(){
+				var getuserID = -1;
+				$.ajax({ async: false, crossDomain: false, cache: true, type: "GET", url: "php/getUserID.php", success: function(response) {	
+					getuserID = parseInt(response) ;
+					if(logging) console.log("UserID reloaded: " + getuserID);
+				},error: function(jqXHR, textStatus, errorThrown) {
+					if(logging) console.log(textStatus, errorThrown);
+				}});	
+				return getuserID;
+			}
+			
+			function participantCompletedWithin(_userid, _within){
+				var dataQuery = 
+					"id=" + _userid + "&" + 
+					"withinCompleted=" + _within;
+				
+				if(logging) console.log(dataQuery);
+				
+				$.ajax({ async: true, crossDomain: false, cache: true, type: "GET", url: "php/updateUser.php", data: dataQuery, success: function(response) {	
+					if(logging) console.log("User update: " + response);
+				},error: function(jqXHR, textStatus, errorThrown) {
+					if(logging) console.log(textStatus, errorThrown);
+				}});
+			}
+			
+			
+			function shuffle(a, seed) {
+				Math.seedrandom(seed);
+				var j, x, i;
+				for (i = a.length - 1; i > 0; i--) {
+					j = Math.floor(Math.random() * (i + 1));
+					x = a[i];
+					a[i] = a[j];
+					a[j] = x;
+				}
+				return a;
+			}		
+			
+			function latinSquare(array, participant){
+				var latinSquare = Array(array.length).fill(null).map(()=>Array(array.length).fill(null));
+				
+				latinSquare[0][0] = 1;
+				latinSquare[0][1] = 2;
+				
+				for (var i = 2, j = 3, k = 0; i < array.length; i++){
+					if (i % 2 == 1) latinSquare[0][i] = j++;
+					else latinSquare[0][i] = array.length - (k++);
+				}
+				
+				for (var i = 1; i <= array.length; i++) latinSquare[i - 1][0] = i;
+				
+				
+				for (var row = 1; row < array.length; row++){
+					for (var col = 1; col < array.length; col++){
+						latinSquare[row][col] = (latinSquare[row - 1][col] + 1) % array.length;
+
+						if (latinSquare[row][col] == 0) latinSquare[row][col] = array.length;
+					}
+				}
+				
+				var newArray = new Array(array.length);
+
+				for (var col = 0; col < array.length; col++)
+				{
+					var row = (participant -1) % (array.length);
+					newArray[col] = array[(latinSquare[row][col]) -1];
+				}
+
+				return newArray
+			}
+			
+			function eMailSent(){
+				if(finished == false){
+					$("#submitEmail").html($(xml).find("settings").find('afterEMailSubmitted[lang="' + language + '"]').html());
+					$("#finalText").html($(xml).find('settings').find("byebye[lang='" + language + "']").html());
+					$("#submitEmail").append("<div class='row mb-3'><div class='col'><input id='btnReset' class='btn btn-primary btn-md float-right ml-3' type='button' value='"+$(xml).find("settings").find('resetSurvey[lang="' + language + '"]').html()+"'></input></div></div>");
+				
+					$( "#btnReset" ).click(function() {
+						location.reload();
+					});
+					
+					finished = true;
+				}
+			}
+			
+			function getBrowser() {
+				var result = bowser.getParser(window.navigator.userAgent);
+				result = result.parsedResult.browser.name + " " + result.parsedResult.browser.version + " (" + result.parsedResult.os.name + ")";
+				if(logging) console.log(result);
+				return result;			   
+			}
+			
+			function gup( name )
+			{
+				name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+				var regexS = "[\\?&]"+name+"=([^&#]*)";
+				var regex = new RegExp( regexS );
+				var results = regex.exec( window.location.href );
+				if( results == null )
+					return "";
+				else
+					return results[1];
+			}
+			
+			/*
+			if (Array.prototype.allValuesSame === undefined) {
+				Array.prototype.allValuesSame = function() {
+				for (let i = 1; i < this.length; i++) {
+					if (this[i] !== this[0]) {
+						return false;
+					}
+				}
+					return true;
+				}
+			}*/
+		</script>
+	</body>
+</html>
